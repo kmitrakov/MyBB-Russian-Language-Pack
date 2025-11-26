@@ -5,56 +5,66 @@
  *
  */
 
-$l['nav_postpoll'] = "Post Poll";
-$l['nav_editpoll'] = "Edit Poll";
-$l['nav_pollresults'] = "Poll Results";
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
 
-$l['edit_poll'] = "Edit Poll";
-$l['delete_poll'] = "Delete Poll";
-$l['delete_q'] = "Delete?";
-$l['delete_note'] = "To delete this poll, check the box to the left and click the button to the right.";
-$l['delete_note2'] = "<b>Note:</b> Once this poll has been deleted there is no way of restoring it.";
-$l['question'] = "Question:";
-$l['num_options'] = "Number of Options:";
-$l['max_options'] = "Maximum:";
-$l['poll_options'] = "Poll Options:";
-$l['update_options'] = "Update Options";
-$l['poll_options_note'] = "Poll options should be short and to the point.";
-$l['options'] = "Options:";
-$l['option_multiple'] = "<b>Allow multiple choice:</b> Users have the ability to vote on more than one option.";
-$l['option_multiple_maxoptions'] = "Maximum number of options per user (0 for no limit):";
-$l['option_public'] = "<b>Public Poll:</b> Give users the ability to see which user voted on which option(s).";
-$l['option_closed'] = "<b>Poll is Closed:</b> If checked the poll will be closed from voting.";
-$l['poll_timeout'] = "Poll Timeout:";
-$l['timeout_note'] = "The number of day(s) which people can vote on this poll.<br />(Set to 0 to if this poll should not timeout.)";
-$l['days_after'] = "days after:";
-$l['update_poll'] = "Update Poll";
-$l['option'] = "Option";
-$l['votes'] = "Votes:";
-$l['post_new_poll'] = "Post New Poll";
-$l['days'] = "days";
-$l['poll_results'] = "Poll Results";
-$l['poll_total'] = "Total:";
-$l['poll_votes'] = "vote(s)";
+$l['nav_postpoll'] = "Создать опрос";
+$l['nav_editpoll'] = "Редактировать опрос";
+$l['nav_pollresults'] = "Результаты опроса";
 
-$l['redirect_pollposted'] = "Your poll has been posted.<br />You will now be returned to the thread.";
-$l['redirect_pollpostedmoderated'] = "Your poll has been posted, but your thread is still pending moderation.<br />You will be returned to the forum.";
-$l['redirect_pollupdated'] = "The poll has been updated.<br />You will now be returned to the thread.";
-$l['redirect_votethanks'] = "Thank you for voting.<br />You will now be returned to the thread.";
-$l['redirect_unvoted'] = "Your vote(s) in this thread have been removed.<br />You will now be returned to the thread.";
-$l['redirect_polldeleted'] = "Thank you, the poll has successfully been removed from the thread.<br />You will now be taken back to the thread.";
+$l['edit_poll'] = "Редактировать опрос";
+$l['delete_poll'] = "Удалить опрос";
+$l['delete_q'] = "Удалить?";
+$l['delete_note'] = "Чтобы удалить этот опрос, установите флажок слева и нажмите кнопку справа.";
+$l['delete_note2'] = "<b>Примечание:</b> После удаления этого опроса восстановить его будет невозможно.";
+$l['question'] = "Вопрос:";
+$l['num_options'] = "Количество вариантов:";
+$l['max_options'] = "Максимум:";
+$l['poll_options'] = "Варианты опроса:";
+$l['update_options'] = "Обновить варианты";
+$l['poll_options_note'] = "Варианты опроса должны быть краткими и по существу.";
+$l['options'] = "Варианты:";
+$l['option_multiple'] = "<b>Разрешить множественный выбор:</b> Пользователи смогут выбирать более одного варианта.";
+$l['option_multiple_maxoptions'] = "Максимальное количество вариантов на пользователя (0 - без ограничений):";
+$l['option_public'] = "<b>Публичный опрос:</b> Пользователи смогут видеть, кто как проголосовал.";
+$l['option_closed'] = "<b>Опрос закрыт:</b> Если отмечено, голосование в опросе будет закрыто.";
+$l['poll_timeout'] = "Время жизни опроса:";
+$l['timeout_note'] = "Количество дней, в течение которых можно голосовать в этом опросе.<br />(Установите 0, если опрос не должен ограничиваться по времени.)";
+$l['days_after'] = "дней после:";
+$l['update_poll'] = "Обновить опрос";
+$l['option'] = "Вариант";
+$l['votes'] = "Голосов:";
+$l['post_new_poll'] = "Создать новый опрос";
+$l['days'] = "дней";
+$l['poll_results'] = "Результаты опроса";
+$l['poll_total'] = "Всего:";
+$l['poll_votes'] = "голос(ов)";
 
-$l['error_polloptiontoolong'] = "One or more poll options you entered are longer than the acceptable limit. Please go back and shorten them.";
-$l['error_polloptionsequence'] = "One or more poll options you entered contain a sequence which should not be used in them: <strong>||~|~||</strong>. Please go back and remove it.";
-$l['error_noquestionoptions'] = "You either did not enter a question for your poll or do not have enough options. The minimum number of options a poll can have is 2.<br />Please go back and correct this error.";
-$l['error_pollalready'] = "Thread already has poll!";
-$l['error_nopolloptions'] = "The specified poll option is invalid or does not exist.";
-$l['error_maxpolloptions'] = "You have voted for too many options. You are only allowed to vote for {1} options.<br />Please go back and try again.";
-$l['error_alreadyvoted'] = "You have already voted in this poll.";
-$l['error_notvoted'] = "You haven't voted in this poll.";
-$l['error_invalidpoll'] = "The specified poll is invalid or does not exist.";
-$l['error_pollclosed'] = "You cannot vote in a poll that has been closed.";
-$l['poll_time_limit'] = "Sorry but you cannot add a poll to your thread. The Administrator has set it so that polls can only be added within {1} hours of posting.";
+$l['redirect_pollposted'] = "Ваш опрос создан.<br />Сейчас вы будете перенаправлены в тему.";
+$l['redirect_pollpostedmoderated'] = "Ваш опрос создан, но ваша тема все еще ожидает модерации.<br />Вы будете перенаправлены в раздел.";
+$l['redirect_pollupdated'] = "Опрос обновлен.<br />Сейчас вы будете перенаправлены в тему.";
+$l['redirect_votethanks'] = "Спасибо за ваш голос.<br />Сейчас вы будете перенаправлены в тему.";
+$l['redirect_unvoted'] = "Ваш(и) голос(а) в этой теме удален(ы).<br />Сейчас вы будете перенаправлены в тему.";
+$l['redirect_polldeleted'] = "Спасибо, опрос успешно удален из темы.<br />Сейчас вы будете перенаправлены в тему.";
 
-$l['poll_deleted'] = "Deleted Poll";
-$l['poll_edited'] = "Edited Poll";
+$l['error_polloptiontoolong'] = "Один или несколько вариантов опроса превышают допустимую длину. Пожалуйста, вернитесь и сократите их.";
+$l['error_polloptionsequence'] = "Один или несколько вариантов опроса содержат последовательность, которую нельзя использовать: <strong>||~|~||</strong>. Пожалуйста, вернитесь и удалите ее.";
+$l['error_noquestionoptions'] = "Вы не ввели вопрос для опроса или у вас недостаточно вариантов. Минимальное количество вариантов в опросе - 2.<br />Пожалуйста, вернитесь и исправьте эту ошибку.";
+$l['error_pollalready'] = "В теме уже есть опрос!";
+$l['error_nopolloptions'] = "Указанный вариант опроса неверен или не существует.";
+$l['error_maxpolloptions'] = "Вы выбрали слишком много вариантов. Вам разрешено выбирать только {1} вариант(ов).<br />Пожалуйста, вернитесь и попробуйте снова.";
+$l['error_alreadyvoted'] = "Вы уже голосовали в этом опросе.";
+$l['error_notvoted'] = "Вы не голосовали в этом опросе.";
+$l['error_invalidpoll'] = "Указанный опрос неверен или не существует.";
+$l['error_pollclosed'] = "Вы не можете голосовать в закрытом опросе.";
+$l['poll_time_limit'] = "Извините, но вы не можете добавить опрос к своей теме. Администратор установил, что опросы можно добавлять только в течение {1} часов после создания темы.";
+
+$l['poll_deleted'] = "Опрос удален";
+$l['poll_edited'] = "Опрос отредактирован";

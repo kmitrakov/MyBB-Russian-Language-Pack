@@ -5,33 +5,43 @@
  *
  */
 
-$l['nav_stats'] = "Board Statistics";
-$l['stats_disabled'] = "You cannot view the statistics page as it has been disabled by the Administrator.";
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
 
-$l['board_stats'] = "Board Statistics";
-$l['none'] = "None";
-$l['totals'] = "Totals";
-$l['averages'] = "Averages";
-$l['posts'] = "Posts:";
-$l['threads'] = "Threads:";
-$l['members'] = "Members:";
-$l['ppd'] = "Posts per day:";
-$l['tpd'] = "Threads per day:";
-$l['mpd'] = "Members per day:";
-$l['ppm'] = "Posts per member:";
-$l['tpm'] = "Threads per member:";
-$l['rpt'] = "Replies per thread:";
-$l['no_posts'] = "No";
-$l['general'] = "General";
-$l['newest_member'] = "Newest Member:";
-$l['members_posted'] = "Members who have posted:";
-$l['todays_top_poster'] = "Today's top poster: <b>{1}</b> (<b>{2}</b> posts)";
-$l['popular_forum'] = "Most popular forum: <b>{1}</b> (<b>{2}</b> posts, <b>{3}</b> threads)";
-$l['most_popular'] = "Most Popular&hellip;";
-$l['most_replied_threads'] = "Most Replied To Threads";
-$l['most_viewed_threads'] = "Most Viewed Threads";
-$l['not_enough_info_stats'] = "Sorry, but there is not enough information on this board to generate statistics. Before statistics can be generated this board needs to contain at least 1 member and 1 thread.";
-$l['replies'] = "replies";
-$l['views'] = "views";
-$l['top_referrer'] = "Top referrer: <strong>{1}</strong> (<strong>{2}</strong> referrals)";
+$l['nav_stats'] = "Статистика форума";
+$l['stats_disabled'] = "Вы не можете просматривать страницу статистики, так как она была отключена Администратором.";
+
+$l['board_stats'] = "Статистика форума";
+$l['none'] = "Нет";
+$l['totals'] = "Всего";
+$l['averages'] = "В среднем";
+$l['posts'] = "Сообщений:";
+$l['threads'] = "Тем:";
+$l['members'] = "Пользователей:";
+$l['ppd'] = "Сообщений в день:";
+$l['tpd'] = "Тем в день:";
+$l['mpd'] = "Пользователей в день:";
+$l['ppm'] = "Сообщений на пользователя:";
+$l['tpm'] = "Тем на пользователя:";
+$l['rpt'] = "Ответов на тему:";
+$l['no_posts'] = "Нет";
+$l['general'] = "Общее";
+$l['newest_member'] = "Новый пользователь:";
+$l['members_posted'] = "Пользователей, которые написали сообщения:";
+$l['todays_top_poster'] = "Самый активный сегодня: <b>{1}</b> (<b>{2}</b> сообщений)";
+$l['popular_forum'] = "Самый популярный форум: <b>{1}</b> (<b>{2}</b> сообщений, <b>{3}</b> тем)";
+$l['most_popular'] = "Самые популярные&hellip;";
+$l['most_replied_threads'] = "Темы с наибольшим количеством ответов";
+$l['most_viewed_threads'] = "Темы с наибольшим количеством просмотров";
+$l['not_enough_info_stats'] = "Извините, но на этом форуме недостаточно информации для формирования статистики. Перед формированием статистики на форуме должна быть как минимум 1 тема и 1 пользователь.";
+$l['replies'] = "ответов";
+$l['views'] = "просмотров";
+$l['top_referrer'] = "Лучший реферер: <strong>{1}</strong> (<strong>{2}</strong> переходов)";
 

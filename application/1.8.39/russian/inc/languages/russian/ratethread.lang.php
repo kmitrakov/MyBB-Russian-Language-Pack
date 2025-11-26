@@ -5,17 +5,27 @@
  *
  */
 
-$l['redirect_threadrated'] = "Thank you, the thread has been rated successfully. You will now be returned to the thread.";
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
 
-$l['error_invalidrating'] = "You have selected an invalid rating for this thread. Please go back and try again.";
-$l['error_alreadyratedthread'] = "Sorry, but you have already rated this thread.";
-$l['error_cannotrateownthread'] = "Sorry, you cannot rate your own thread.";
-$l['thread_doesnt_exist'] = "You can not rate a thread which does not exist.";
+$l['redirect_threadrated'] = "Спасибо, тема успешно оценена. Сейчас вы будете перенаправлены обратно в тему.";
 
-$l['rating_votes_average'] = "{1} Vote(s) - {2} out of 5 in Average";
-$l['one_star'] = "1 star out of 5";
-$l['two_stars'] = "2 stars out of 5";
-$l['three_stars'] = "3 stars out of 5";
-$l['four_stars'] = "4 stars out of 5";
-$l['five_stars'] = "5 stars out of 5";
-$l['rating_added'] = "Your rating has been added!";
+$l['error_invalidrating'] = "Вы выбрали недопустимую оценку для этой темы. Пожалуйста, вернитесь и попробуйте снова.";
+$l['error_alreadyratedthread'] = "Извините, но вы уже оценили эту тему.";
+$l['error_cannotrateownthread'] = "Извините, вы не можете оценивать свою собственную тему.";
+$l['thread_doesnt_exist'] = "Вы не можете оценить тему, которая не существует.";
+
+$l['rating_votes_average'] = "{1} Голос(ов) - {2} из 5 в среднем";
+$l['one_star'] = "1 звезда из 5";
+$l['two_stars'] = "2 звезды из 5";
+$l['three_stars'] = "3 звезды из 5";
+$l['four_stars'] = "4 звезды из 5";
+$l['five_stars'] = "5 звезд из 5";
+$l['rating_added'] = "Ваша оценка добавлена!";

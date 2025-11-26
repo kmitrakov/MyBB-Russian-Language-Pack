@@ -5,12 +5,22 @@
  *
  */
 
-$l['nav_announcements'] = "Forum Announcement";
-$l['announcements'] = "Announcement";
-$l['forum_announcement'] = "Forum Announcement: {1}";
-$l['error_invalidannouncement'] = "The announcement specified is invalid.";
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
 
-$l['announcement_edit'] = "Edit this announcement";
-$l['announcement_qdelete'] = "Delete this announcement";
-$l['announcement_quickdelete_confirm'] = "Are you sure you want to delete this announcement?";
+$l['nav_announcements'] = "Объявления форума";
+$l['announcements'] = "Объявление";
+$l['forum_announcement'] = "Объявление форума: {1}";
+$l['error_invalidannouncement'] = "Указанное объявление недействительно.";
+
+$l['announcement_edit'] = "Редактировать это объявление";
+$l['announcement_qdelete'] = "Удалить это объявление";
+$l['announcement_quickdelete_confirm'] = "Вы уверены, что хотите удалить это объявление?";
 

@@ -5,22 +5,32 @@
  *
  */
 
-$l['nav_showteam'] = "Forum Team";
-$l['forum_team'] = "Forum Team";
-$l['moderators'] = "Moderators";
-$l['username'] = "Username";
-$l['lastvisit'] = "Last Visit";
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
+
+$l['nav_showteam'] = "Команда форума";
+$l['forum_team'] = "Команда форума";
+$l['moderators'] = "Модераторы";
+$l['username'] = "Имя пользователя";
+$l['lastvisit'] = "Последнее посещение";
 $l['email'] = "Email";
-$l['pm'] = "PM";
-$l['mod_forums'] = "Forum(s)";
-$l['mod_groups'] = "Group(s)";
-$l['online'] = "Online";
-$l['offline'] = "Offline";
-$l['away'] = "Away";
+$l['pm'] = "ЛС";
+$l['mod_forums'] = "Форум(ы)";
+$l['mod_groups'] = "Группа(ы)";
+$l['online'] = "В сети";
+$l['offline'] = "Не в сети";
+$l['away'] = "Отошёл";
 
-$l['group_leaders'] = "Group Leaders";
-$l['group_members'] = "Member(s)";
+$l['group_leaders'] = "Лидеры группы";
+$l['group_members'] = "Участник(и)";
 
-$l['no_members'] = "No members in this group";
-$l['showteam_disabled'] = "The forum team listing functionality has been disabled by the Administrator.";
-$l['error_noteamstoshow'] = "There are no forum staff to be shown.";
+$l['no_members'] = "В этой группе нет участников";
+$l['showteam_disabled'] = "Функция отображения команды форума была отключена Администратором.";
+$l['error_noteamstoshow'] = "Нет сотрудников форума для отображения.";

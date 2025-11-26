@@ -5,6 +5,16 @@
  *
  */
 
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
+
 /*
  * Custom Help Section Translation Format
  *

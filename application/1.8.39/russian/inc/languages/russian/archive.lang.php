@@ -5,14 +5,24 @@
  *
  */
 
-$l['archive_fullversion'] = "Full Version:";
-$l['archive_replies'] = "Replies";
-$l['archive_reply'] = "Reply";
-$l['archive_pages'] = "Pages:";
-$l['archive_note'] = "You're currently viewing a stripped down version of our content. <a href=\"{1}\">View the full version</a> with proper formatting.";
-$l['archive_nopermission'] = "Sorry, you do not have permission to access this resource.";
-$l['error_nothreads'] = "There are currently no threads in this forum.";
-$l['error_nopermission'] = "You do not have permission to view threads in this forum.";
-$l['error_unapproved_thread'] = "This thread is unapproved. Please <a href=\"{1}\">view the full version</a> to view the contents of this thread.";
-$l['archive_not_found'] = "The requested page was not found on this server.";
-$l['error_mustlogin'] = "This bulletin board requires all users to login.";
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
+
+$l['archive_fullversion'] = "Полная версия:";
+$l['archive_replies'] = "Ответы";
+$l['archive_reply'] = "Ответить";
+$l['archive_pages'] = "Страницы:";
+$l['archive_note'] = "Вы просматриваете упрощенную версию нашего контента. <a href=\"{1}\">Просмотреть полную версию</a> с правильным форматированием.";
+$l['archive_nopermission'] = "Извините, у вас нет прав для доступа к этому ресурсу.";
+$l['error_nothreads'] = "В этом форуме пока нет тем.";
+$l['error_nopermission'] = "У вас нет прав для просмотра тем в этом форуме.";
+$l['error_unapproved_thread'] = "Эта тема не утверждена. Пожалуйста, <a href=\"{1}\">просмотрите полную версию</a> для просмотра содержимого этой темы.";
+$l['archive_not_found'] = "Запрошенная страница не найдена на этом сервере.";
+$l['error_mustlogin'] = "Эта доска объявлений требует, чтобы все пользователи вошли в систему.";

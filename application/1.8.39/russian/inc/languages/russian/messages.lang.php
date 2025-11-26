@@ -5,503 +5,513 @@
  *
  */
 
-$l['click_no_wait'] = "Click here if you don't want to wait any longer.";
-$l['redirect_return_forum'] = "<br /><br />Alternatively, <a href=\"{1}\">return to the forum</a>.";
-$l['redirect_emailsent'] = "Your e-mail message has been sent successfully.";
-$l['redirect_loggedin'] = "You have successfully been logged in.<br />You will now be taken back to where you came from.";
-$l['update_confirm'] = "The following file(s) are already attached and will be updated / replaced with the newly selected one(s). {1} Are you sure?";
-$l['error_invalidpworusername'] = "You have entered an invalid username/password combination. <br /><br />If you have forgotten your password please <a href=\"member.php?action=lostpw\">retrieve a new one</a>.";
-$l['error_invalidpworusername1'] = "You have entered an invalid email/password combination. <br /><br />If you have forgotten your password please <a href=\"member.php?action=lostpw\">retrieve a new one</a>.";
-$l['error_invalidpworusername2'] = "You have entered an invalid username/password or email/password combination. <br /><br />If you have forgotten your password please <a href=\"member.php?action=lostpw\">retrieve a new one</a>.";
-$l['error_incompletefields'] = "It appears you have left one or more required fields blank. Please go back and enter the required fields.";
-$l['error_alreadyuploaded'] = "This post already contains an attachment with the name \"{1}\". Please rename the file and upload it again. Alternatively you may click \"Update Attachment\".";
-$l['error_alreadyuploaded_perm'] = "This post already contains an attachment with the same name. Please either remove the existing file or rename the file and upload it again.";
-$l['error_updatefailed'] = "The file \"{1}\" is not already attached and can not be updated.";
-$l['error_nomessage'] = "Sorry, we cannot proceed because you did not enter a valid message. Please go back and do so.";
-$l['error_invalidemail'] = "You did not enter a valid email address.";
-$l['error_nomember'] = "The member you specified is either invalid or doesn't exist.";
-$l['error_maxposts'] = "I'm sorry, but your daily post limit has been exceeded.  Please wait till tomorrow to post further or contact your administrator.<br /><br />The maximum amount of posts you may make in a day is {1}";
-$l['error_nohostname'] = "No hostname could be found for the IP you entered.";
-$l['error_invalidthread'] = "The specified thread does not exist.";
-$l['error_invalidpost'] = "The specified post does not exist.";
-$l['error_invalidannouncement'] = "The specified announcement does not exist.";
-$l['error_invalidattachment'] = "The specified attachment does not exist.";
-$l['error_invalidforum'] = "Invalid forum";
-$l['error_closedinvalidforum'] = "You may not post in this forum because either the forum is closed, it is a redirect to another webpage, or it is a category.";
-$l['error_attachtype'] = "The type of file that you attached is not allowed. Please remove the attachment or choose a different type.";
-$l['error_attachsize'] = "The file \"{1}\" is too large. The maximum size for that type of file is {2} kilobytes.";
-$l['error_uploadempty'] = "The \"{1}\" file is empty.";
-$l['error_uploadsize'] = "The size of the uploaded file is too large.";
-$l['error_uploadfailed'] = "The file upload failed. Please choose a valid file and try again. ";
-$l['error_uploadfailed_detail'] = "Error details: ";
-$l['error_uploadfailed_php1'] = "PHP returned: Uploaded file exceeded upload_max_filesize directive in php.ini.  Please contact your forum administrator with this error.";
-$l['error_uploadfailed_php2'] = "The uploaded file exceeded the maximum file size specified.";
-$l['error_uploadfailed_php3'] = "The uploaded file was only partially uploaded.";
-$l['error_uploadfailed_php4'] = "No file was uploaded.";
-$l['error_uploadfailed_php6'] = "PHP returned: Missing a temporary folder.  Please contact your forum administrator with this error.";
-$l['error_uploadfailed_php7'] = "PHP returned: Failed to write the file to disk.  Please contact your forum administrator with this error.";
-$l['error_uploadfailed_phpx'] = "PHP returned error code: {1}.  Please contact your forum administrator with this error.";
-$l['error_uploadfailed_nothingtomove'] = "An invalid file was specified, so the uploaded file could not be moved to its destination.";
-$l['error_uploadfailed_movefailed'] = "There was a problem moving the uploaded file to its destination.";
-$l['error_uploadfailed_lost'] = "The attachment could not be found on the server.";
-$l['error_emailmismatch'] = "The email addresses you entered do not match. Please go back and try again";
-$l['error_nopassword'] = "You did not enter a valid password.";
-$l['error_usernametaken'] = "The username you have chosen is already registered. If you have previously registered on these forums, please <a href=\"member.php?action=login\">login</a>.";
-$l['error_nousername'] = "You did not enter a username.";
-$l['error_invalidusername'] = "The username you have entered appears to be invalid.";
-$l['error_invalidpassword'] = "The password you entered is incorrect. If you have forgotten your password, click <a href=\"member.php?action=lostpw\">here</a>. Otherwise, go back and try again.";
-$l['error_postflooding'] = "We are sorry but we cannot process your post. The administrator has specified you are only allowed to post once every {1} seconds.";
-$l['error_nopermission_guest_1'] = "You are either not logged in or do not have permission to view this page. This could be because one of the following reasons:";
-$l['error_nopermission_guest_2'] = "You are not logged in or registered. Please login and retry the desired action.";
-$l['error_nopermission_guest_3'] = "You do not have permission to access this page. Are you trying to access administrative pages or a resource that you shouldn't be?  Check in the forum rules that you are allowed to perform this action.";
-$l['error_nopermission_guest_4'] = "Your account may have been disabled by an administrator, or it may be awaiting account activation.";
-$l['error_nopermission_guest_5'] = "You have accessed this page directly rather than using appropriate forms or links.";
-$l['login'] = "Login";
-$l['need_reg'] = "Need to register?";
-$l['forgot_password'] = "Forgotten your password?";
-$l['error_nopermission_user_1'] = "You do not have permission to access this page. This could be because of one of the following reasons:";
-$l['error_nopermission_user_ajax'] = "You do not have permission to access this page.";
-$l['error_nopermission_user_2'] = "Your account has either been suspended or you have been banned from accessing this resource.";
-$l['error_nopermission_user_3'] = "You do not have permission to access this page. Are you trying to access administrative pages or a resource that you shouldn't be? Check in the forum rules that you are allowed to perform this action.";
-$l['error_nopermission_user_4'] = "Your account may still be awaiting activation or moderation.";
-$l['error_nopermission_user_5'] = "You have accessed this page directly rather than using appropriate forms or link.";
-$l['error_nopermission_user_resendactivation'] = "Resend Activation Code";
-$l['error_nopermission_user_username'] = "You are currently logged in with the username: '{1}'";
-$l['logged_in_user'] = "Logged In User";
-$l['error_too_many_images'] = "Too Many Images.";
-$l['error_too_many_images2'] = "We are sorry, but we cannot process your post because it contains too many images. Please remove some images from your post to continue.";
-$l['error_too_many_images3'] = "<b>Note:</b> The maximum amount of images per post is";
-$l['error_attach_file'] = "Error Attaching File";
-$l['please_correct_errors'] = "Please correct the following errors before continuing:";
-$l['error_reachedattachquota'] = "Sorry, but you cannot attach this file because you have reached your attachment quota of {1}";
-$l['error_maxattachpost'] = "Sorry but you cannot attach this file because you have reached the maximum number of attachments allowed per post of {1}";
-$l['error_invaliduser'] = "The specified user is invalid or does not exist.";
-$l['error_invalidaction'] = "Invalid action";
-$l['error_messagelength'] = "Sorry, your message is too long and cannot be posted. Please try shortening your message and try again.";
-$l['error_message_too_short'] = "Sorry, your message is too short and cannot be posted.";
-$l['failed_login_wait'] = "You have failed to login within the required number of attempts. You must now wait {1}h {2}m {3}s before you can login again.";
-$l['failed_login_again'] = "<br />You have <strong>{1}</strong> more login attempts.";
-$l['error_max_emails_day'] = "You cannot use the 'Send Thread to a Friend' or the 'Email User' features because you've already used up your allocated quota of sending {1} messages in the past 24 hours.";
-$l['attachments_disabled'] = "You cannot use the attachment system as it has been disabled by the Administrator.";
-$l['error_attach_filename_length'] = "The file name '{1}' exceeds the maximum file name length {2}. Please upload a file with a shorter file name.";
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
 
-$l['emailsubject_lostpw'] = "Password Reset at {1}";
-$l['emailsubject_passwordreset'] = "New password at {1}";
-$l['emailsubject_subscription'] = "New Reply to {1}";
-$l['emailsubject_randompassword'] = "Your Password for {1}";
-$l['emailsubject_activateaccount'] = "Account Activation at {1}";
-$l['emailsubject_forumsubscription'] = "New Thread in {1}";
-$l['emailsubject_reportpost'] = "Reported post at {1}";
-$l['emailsubject_reportprofile'] = "Reported user at {1}";
-$l['emailsubject_reportreputation'] = "Reported reputation at {1}";
-$l['emailsubject_reachedpmquota'] = "Private Messaging Quota Reached at {1}";
-$l['emailsubject_changeemail'] = "Change of Email at {1}";
-$l['emailsubject_newpm'] = "New Private Message at {1} - {2}";
-$l['emailsubject_newjoinrequest'] = "New Join Request at {1}";
-$l['emailsubject_sendtofriend'] = "Interesting discussion at {1}";
-$l['emailsubject_changepassword'] = "Change of Password at {1}";
-$l['emailbit_viewthread'] = "... (visit the thread to read more...)";
+$l['click_no_wait'] = "Нажмите здесь, если не хотите больше ждать.";
+$l['redirect_return_forum'] = "<br /><br />Или <a href=\"{1}\">вернуться на форум</a>.";
+$l['redirect_emailsent'] = "Ваше email сообщение было успешно отправлено.";
+$l['redirect_loggedin'] = "Вы успешно вошли в систему.<br />Сейчас вы будете перенаправлены туда, откуда пришли.";
+$l['update_confirm'] = "Следующие файлы уже прикреплены и будут обновлены/заменены новыми выбранными файлами. {1} Вы уверены?";
+$l['error_invalidpworusername'] = "Вы ввели неверную комбинацию имени пользователя/пароля. <br /><br />Если вы забыли свой пароль, пожалуйста, <a href=\"member.php?action=lostpw\">получите новый</a>.";
+$l['error_invalidpworusername1'] = "Вы ввели неверную комбинацию email/пароля. <br /><br />Если вы забыли свой пароль, пожалуйста, <a href=\"member.php?action=lostpw\">получите новый</a>.";
+$l['error_invalidpworusername2'] = "Вы ввели неверную комбинацию имени пользователя/пароля или email/пароля. <br /><br />Если вы забыли свой пароль, пожалуйста, <a href=\"member.php?action=lostpw\">получите новый</a>.";
+$l['error_incompletefields'] = "Похоже, вы оставили одно или несколько обязательных полей пустыми. Пожалуйста, вернитесь и заполните обязательные поля.";
+$l['error_alreadyuploaded'] = "Это сообщение уже содержит вложение с именем \"{1}\". Пожалуйста, переименуйте файл и загрузите его снова. Или вы можете нажать \"Обновить вложение\".";
+$l['error_alreadyuploaded_perm'] = "Это сообщение уже содержит вложение с таким же именем. Пожалуйста, либо удалите существующий файл, либо переименуйте файл и загрузите его снова.";
+$l['error_updatefailed'] = "Файл \"{1}\" еще не прикреплен и не может быть обновлен.";
+$l['error_nomessage'] = "Извините, мы не можем продолжить, потому что вы не ввели допустимое сообщение. Пожалуйста, вернитесь и сделайте это.";
+$l['error_invalidemail'] = "Вы ввели недопустимый email адрес.";
+$l['error_nomember'] = "Указанный пользователь недействителен или не существует.";
+$l['error_maxposts'] = "Извините, но ваш дневной лимит сообщений превышен. Пожалуйста, подождите до завтра, чтобы опубликовать еще, или свяжитесь с администратором.<br /><br />Максимальное количество сообщений, которые вы можете сделать в день: {1}";
+$l['error_nohostname'] = "Не удалось найти имя хоста для введенного вами IP.";
+$l['error_invalidthread'] = "Указанная тема не существует.";
+$l['error_invalidpost'] = "Указанное сообщение не существует.";
+$l['error_invalidannouncement'] = "Указанное объявление не существует.";
+$l['error_invalidattachment'] = "Указанное вложение не существует.";
+$l['error_invalidforum'] = "Неверный форум";
+$l['error_closedinvalidforum'] = "Вы не можете публиковать сообщения в этом форуме, потому что либо форум закрыт, либо это перенаправление на другую веб-страницу, либо это категория.";
+$l['error_attachtype'] = "Тип прикрепленного файла не разрешен. Пожалуйста, удалите вложение или выберите другой тип.";
+$l['error_attachsize'] = "Файл \"{1}\" слишком большой. Максимальный размер для этого типа файла: {2} килобайт.";
+$l['error_uploadempty'] = "Файл \"{1}\" пуст.";
+$l['error_uploadsize'] = "Размер загружаемого файла слишком велик.";
+$l['error_uploadfailed'] = "Загрузка файла не удалась. Пожалуйста, выберите допустимый файл и попробуйте снова. ";
+$l['error_uploadfailed_detail'] = "Детали ошибки: ";
+$l['error_uploadfailed_php1'] = "PHP вернул: Загруженный файл превысил директиву upload_max_filesize в php.ini. Пожалуйста, свяжитесь с администратором форума с этой ошибкой.";
+$l['error_uploadfailed_php2'] = "Загруженный файл превысил максимальный размер файла.";
+$l['error_uploadfailed_php3'] = "Загруженный файл был загружен только частично.";
+$l['error_uploadfailed_php4'] = "Файл не был загружен.";
+$l['error_uploadfailed_php6'] = "PHP вернул: Отсутствует временная папка. Пожалуйста, свяжитесь с администратором форума с этой ошибкой.";
+$l['error_uploadfailed_php7'] = "PHP вернул: Не удалось записать файл на диск. Пожалуйста, свяжитесь с администратором форума с этой ошибкой.";
+$l['error_uploadfailed_phpx'] = "PHP вернул код ошибки: {1}. Пожалуйста, свяжитесь с администратором форума с этой ошибкой.";
+$l['error_uploadfailed_nothingtomove'] = "Указан недопустимый файл, поэтому загруженный файл не может быть перемещен в место назначения.";
+$l['error_uploadfailed_movefailed'] = "Возникла проблема с перемещением загруженного файла в место назначения.";
+$l['error_uploadfailed_lost'] = "Вложение не найдено на сервере.";
+$l['error_emailmismatch'] = "Введенные вами email адреса не совпадают. Пожалуйста, вернитесь и попробуйте снова";
+$l['error_nopassword'] = "Вы не ввели допустимый пароль.";
+$l['error_usernametaken'] = "Выбранное вами имя пользователя уже зарегистрировано. Если вы ранее регистрировались на этих форумах, пожалуйста, <a href=\"member.php?action=login\">войдите</a>.";
+$l['error_nousername'] = "Вы не ввели имя пользователя.";
+$l['error_invalidusername'] = "Введенное вами имя пользователя кажется недопустимым.";
+$l['error_invalidpassword'] = "Введенный вами пароль неверен. Если вы забыли свой пароль, нажмите <a href=\"member.php?action=lostpw\">здесь</a>. В противном случае вернитесь и попробуйте снова.";
+$l['error_postflooding'] = "Извините, но мы не можем обработать ваше сообщение. Администратор установил, что вы можете публиковать сообщения только раз в {1} секунд.";
+$l['error_nopermission_guest_1'] = "Вы либо не вошли в систему, либо не имеете разрешения на просмотр этой страницы. Это может быть по одной из следующих причин:";
+$l['error_nopermission_guest_2'] = "Вы не вошли в систему или не зарегистрированы. Пожалуйста, войдите и повторите желаемое действие.";
+$l['error_nopermission_guest_3'] = "У вас нет разрешения на доступ к этой странице. Вы пытаетесь получить доступ к административным страницам или ресурсу, к которому не должны иметь доступа? Проверьте в правилах форума, разрешено ли вам выполнять это действие.";
+$l['error_nopermission_guest_4'] = "Ваша учетная запись могла быть отключена администратором или ожидает активации.";
+$l['error_nopermission_guest_5'] = "Вы получили доступ к этой странице напрямую, а не через соответствующие формы или ссылки.";
+$l['login'] = "Вход";
+$l['need_reg'] = "Нужно зарегистрироваться?";
+$l['forgot_password'] = "Забыли пароль?";
+$l['error_nopermission_user_1'] = "У вас нет разрешения на доступ к этой страницы. Это может быть по одной из следующих причин:";
+$l['error_nopermission_user_ajax'] = "У вас нет разрешения на доступ к этой страницы.";
+$l['error_nopermission_user_2'] = "Ваша учетная запись была либо приостановлена, либо вам запрещен доступ к этому ресурсу.";
+$l['error_nopermission_user_3'] = "У вас нет разрешения на доступ к этой страницы. Вы пытаетесь получить доступ к административным страницам или ресурсу, к которому не должны иметь доступа? Проверьте в правилах форума, разрешено ли вам выполнять это действие.";
+$l['error_nopermission_user_4'] = "Ваша учетная запись все еще может ожидать активации или модерации.";
+$l['error_nopermission_user_5'] = "Вы получили доступ к этой странице напрямую, а не через соответствующие формы или ссылки.";
+$l['error_nopermission_user_resendactivation'] = "Повторно отправить код активации";
+$l['error_nopermission_user_username'] = "Вы вошли в систему с именем пользователя: '{1}'";
+$l['logged_in_user'] = "Вошедший пользователь";
+$l['error_too_many_images'] = "Слишком много изображений.";
+$l['error_too_many_images2'] = "Извините, но мы не можем обработать ваше сообщение, потому что оно содержит слишком много изображений. Пожалуйста, удалите некоторые изображения из вашего сообщения, чтобы продолжить.";
+$l['error_too_many_images3'] = "<b>Примечание:</b> Максимальное количество изображений на сообщение:";
+$l['error_attach_file'] = "Ошибка прикрепления файла";
+$l['please_correct_errors'] = "Пожалуйста, исправьте следующие ошибки перед продолжением:";
+$l['error_reachedattachquota'] = "Извините, но вы не можете прикрепить этот файл, потому что достигли своей квоты вложений в {1}";
+$l['error_maxattachpost'] = "Извините, но вы не можете прикрепить этот файл, потому что достигли максимального количества вложений на сообщение: {1}";
+$l['error_invaliduser'] = "Указанный пользователь недействителен или не существует.";
+$l['error_invalidaction'] = "Неверное действие";
+$l['error_messagelength'] = "Извините, ваше сообщение слишком длинное и не может быть опубликовано. Пожалуйста, попробуйте сократить ваше сообщение и попробуйте снова.";
+$l['error_message_too_short'] = "Извините, ваше сообщение слишком короткое и не может быть опубликовано.";
+$l['failed_login_wait'] = "Вы не смогли войти в систему в течение требуемого количества попыток. Теперь вы должны подождать {1}ч {2}м {3}с, прежде чем сможете войти снова.";
+$l['failed_login_again'] = "<br />У вас осталось <strong>{1}</strong> попыток входа.";
+$l['error_max_emails_day'] = "Вы не можете использовать функции 'Отправить тему другу' или 'Отправить email пользователю', потому что вы уже использовали выделенную квоту отправки {1} сообщений за последние 24 часа.";
+$l['attachments_disabled'] = "Вы не можете использовать систему вложений, так как она была отключена администратором.";
+$l['error_attach_filename_length'] = "Имя файла '{1}' превышает максимальную длину имени файла {2}. Пожалуйста, загрузите файл с более коротким именем.";
+
+$l['emailsubject_lostpw'] = "Сброс пароля на {1}";
+$l['emailsubject_passwordreset'] = "Новый пароль на {1}";
+$l['emailsubject_subscription'] = "Новый ответ в {1}";
+$l['emailsubject_randompassword'] = "Ваш пароль для {1}";
+$l['emailsubject_activateaccount'] = "Активация аккаунта на {1}";
+$l['emailsubject_forumsubscription'] = "Новая тема в {1}";
+$l['emailsubject_reportpost'] = "Жалоба на сообщение на {1}";
+$l['emailsubject_reportprofile'] = "Жалоба на пользователя на {1}";
+$l['emailsubject_reportreputation'] = "Жалоба на репутацию на {1}";
+$l['emailsubject_reachedpmquota'] = "Достигнута квота личных сообщений на {1}";
+$l['emailsubject_changeemail'] = "Изменение email на {1}";
+$l['emailsubject_newpm'] = "Новое личное сообщение на {1} - {2}";
+$l['emailsubject_newjoinrequest'] = "Новый запрос на вступление на {1}";
+$l['emailsubject_sendtofriend'] = "Интересное обсуждение на {1}";
+$l['emailsubject_changepassword'] = "Изменение пароля на {1}";
+$l['emailbit_viewthread'] = "... (посетите тему, чтобы прочитать больше...)";
 
 $l['email_lostpw'] = "{1},
 
-To complete the phase of resetting your account password at {2}, you will need to go to the URL below in your web browser.
+Чтобы завершить этап сброса пароля вашего аккаунта на {2}, вам нужно перейти по ссылке ниже в вашем веб-браузере.
 
 {3}/member.php?action=resetpassword&uid={4}&code={5}
 
-If the above link does not work correctly, go to
+Если вышеуказанная ссылка не работает правильно, перейдите по адресу
 
 {3}/member.php?action=resetpassword
 
-You will need to enter the following:
-Username: {1}
-Activation Code: {5}
+Вам нужно будет ввести следующее:
+Имя пользователя: {1}
+Код активации: {5}
 
-Thank you,
-{2} Staff";
+Спасибо,
+{2}";
 $l['email_lostpw1'] = "{1},
 
-To complete the phase of resetting your account password at {2}, you will need to go to the URL below in your web browser.
+Чтобы завершить этап сброса пароля вашего аккаунта на {2}, вам нужно перейти по ссылке ниже в вашем веб-браузере.
 
 {3}/member.php?action=resetpassword&uid={4}&code={5}
 
-If the above link does not work correctly, go to
+Если вышеуказанная ссылка не работает правильно, перейдите по адресу
 
 {3}/member.php?action=resetpassword
 
-You will need to enter the following:
-Your email address
-Activation Code: {5}
+Вам нужно будет ввести следующее:
+Ваш email адрес
+Код активации: {5}
 
-Thank you,
-{2} Staff";
+Спасибо,
+{2}";
 $l['email_lostpw2'] = "{1},
 
-To complete the phase of resetting your account password at {2}, you will need to go to the URL below in your web browser.
+Чтобы завершить этап сброса пароля вашего аккаунта на {2}, вам нужно перейти по ссылке ниже в вашем веб-браузере.
 
 {3}/member.php?action=resetpassword&uid={4}&code={5}
 
-If the above link does not work correctly, go to
+Если вышеуказанная ссылка не работает правильно, перейдите по адресу
 
 {3}/member.php?action=resetpassword
 
-You will need to enter the following:
-Username: {1} (Or your email address)
-Activation Code: {5}
+Вам нужно будет ввести следующее:
+Имя пользователя: {1} (Или ваш email адрес)
+Код активации: {5}
 
-Thank you,
-{2} Staff";
+Спасибо,
+{2}";
 
-$l['email_reportpost'] = "{1} from {2} has reported the following post:
-
-{3}
-{4}/{5}
-
-The reason this user gave for reporting this post:
-{6}
-
-This message has been sent to all moderators of this forum, or all administrators and super moderators if there are no moderators.
-
-Please check this post out as soon as possible.";
-
-$l['email_reportprofile'] = "{1} from {2} has reported the following user:
+$l['email_reportpost'] = "{1} с {2} пожаловался на следующее сообщение:
 
 {3}
 {4}/{5}
 
-The reason this user gave for reporting this user:
+Причина, которую указал этот пользователь для жалобы на это сообщение:
 {6}
 
-This message has been sent to all moderators of this forum, or all administrators and super moderators if there are no moderators.
+Это сообщение было отправлено всем модераторам этого форума, или всем администраторам и супермодераторам, если нет модераторов.
 
-Please check this user out as soon as possible.";
+Пожалуйста, проверьте это сообщение как можно скорее.";
 
-$l['email_reportreputation'] = "{1} from {2} has reported the following reputation:
+$l['email_reportprofile'] = "{1} с {2} пожаловался на следующего пользователя:
 
 {3}
 {4}/{5}
 
-The reason this user gave for reporting this reputation:
+Причина, которую указал этот пользователь для жалобы на этого пользователя:
 {6}
 
-This message has been sent to all moderators of this forum, or all administrators and super moderators if there are no moderators.
+Это сообщение было отправлено всем модераторам этого форума, или всем администраторам и супермодераторам, если нет модераторов.
 
-Please check this reputation out as soon as possible.";
+Пожалуйста, проверьте этого пользователя как можно скорее.";
+
+$l['email_reportreputation'] = "{1} с {2} пожаловался на следующую репутацию:
+
+{3}
+{4}/{5}
+
+Причина, которую указал этот пользователь для жалобы на эту репутацию:
+{6}
+
+Это сообщение было отправлено всем модераторам этого форума, или всем администраторам и супермодераторам, если нет модераторов.
+
+Пожалуйста, проверьте эту репутацию как можно скорее.";
 
 $l['email_report_comment_extra'] = "{1}: {2}";
 
 $l['email_passwordreset'] = "{1},
 
-Your password at {2} has been reset.
+Ваш пароль на {2} был сброшен.
 
-Your new password is: {3}
+Ваш новый пароль: {3}
 
-You will need this password to login to the forums, once you login you should change it by going to your User Control Panel.
+Этот пароль понадобится вам для входа на форумы. После входа вам следует изменить его, перейдя в Панель управления пользователя.
 
-Thank you,
-{2} Staff";
+Спасибо,
+{2}";
 
 $l['email_randompassword'] = "{1},
 
-Thank you for registering on {2}. Below is your username and the randomly generated password. To login to {2}, you will need these details.
+Спасибо за регистрацию на {2}. Ниже приведены ваше имя пользователя и случайно сгенерированный пароль. Для входа на {2} вам понадобятся эти данные.
 
-Username: {3}
-Password: {4}
+Имя пользователя: {3}
+Пароль: {4}
 
-It is recommended you change your password immediately after you login. You can do this by going to your User CP then clicking Change Password on the left menu.
+Рекомендуется изменить ваш пароль сразу после входа. Вы можете сделать это, перейдя в Панель управления пользователя и нажав 'Изменить пароль' в левом меню.
 
-Thank you,
-{2} Staff";
+Спасибо,
+{2}";
 
 $l['email_randompassword1'] = "{1},
 
-Thank you for registering on {2}. Below is your username and the randomly generated password. To login to {2}, you will need these details.
+Спасибо за регистрацию на {2}. Ниже приведены ваше имя пользователя и случайно сгенерированный пароль. Для входа на {2} вам понадобятся эти данные.
 
-Your email address
-Password: {4}
+Ваш email адрес
+Пароль: {4}
 
-It is recommended you change your password immediately after you login. You can do this by going to your User CP then clicking Change Password on the left menu.
+Рекомендуется изменить ваш пароль сразу после входа. Вы можете сделать это, перейдя в Панель управления пользователя и нажав 'Изменить пароль' в левом меню.
 
-Thank you,
-{2} Staff";
+Спасибо,
+{2}";
 
 $l['email_randompassword2'] = "{1},
 
-Thank you for registering on {2}. Below is your username and the randomly generated password. To login to {2}, you will need these details.
+Спасибо за регистрацию на {2}. Ниже приведены ваше имя пользователя и случайно сгенерированный пароль. Для входа на {2} вам понадобятся эти данные.
 
-Username: {3} (Or your email address)
-Password: {4}
+Имя пользователя: {3} (Или ваш email адрес)
+Пароль: {4}
 
-It is recommended you change your password immediately after you login. You can do this by going to your User CP then clicking Change Password on the left menu.
+Рекомендуется изменить ваш пароль сразу после входа. Вы можете сделать это, перейдя в Панель управления пользователя и нажав 'Изменить пароль' в левом меню.
 
-Thank you,
-{2} Staff";
+Спасибо,
+{2}";
 
-$l['email_sendtofriend'] = "Hello,
+$l['email_sendtofriend'] = "Привет,
 
-{1} from {2} thought you may be interested in reading the following web page:
+{1} с {2} подумал(а), что вам может быть интересно прочитать следующую веб-страницу:
 
 {3}
 
-{1} included the following message:
+{1} включил(а) следующее сообщение:
 ------------------------------------------
 {4}
 ------------------------------------------
 
-Thank you,
-{2} Staff
+Спасибо,
+{2}
 ";
 
 $l['email_forumsubscription'] = "{1},
 
-{2} has just started a new thread in {3}. This is a forum you have subscribed to at {4}.
+{2} только что создал(а) новую тему в {3}. Это форум, на который вы подписаны на {4}.
 
-The thread is titled {5}
+Тема называется {5}
 
-Here is an excerpt of the message:
+Вот отрывок сообщения:
 --
 {6}
 --
 
-To view the thread, you can go to the following URL:
+Чтобы просмотреть тему, вы можете перейти по следующему URL:
 {7}/{8}
 
-There may also be other new threads and replies but you will not receive anymore notifications until you visit the board again.
+Также могут быть другие новые темы и ответы, но вы не будете получать больше уведомлений, пока не посетите форум снова.
 
-Thank you,
-{4} Staff
+Спасибо,
+{4}
 
 ------------------------------------------
-Unsubscription Information:
+Информация об отписке:
 
-If you would not like to receive any more notifications of new threads in this forum, visit the following URL in your browser:
+Если вы не хотите получать больше уведомлений о новых темах в этом форуме, посетите следующий URL в вашем браузере:
 {7}/usercp.php?action=removesubscription&type=forum&fid={9}
 
 ------------------------------------------";
 
 $l['email_activateaccount'] = "{1},
 
-To complete the registration process on {2}, you will need to go to the URL below in your web browser.
+Чтобы завершить процесс регистрации на {2}, вам нужно перейти по ссылке ниже в вашем веб-браузере.
 
 {3}/member.php?action=activate&uid={4}&code={5}
 
-If the above link does not work correctly, go to
+Если вышеуказанная ссылка не работает правильно, перейдите по адресу
 
 {3}/member.php?action=activate
 
-You will need to enter the following:
-Username: {1}
-Activation Code: {5}
+Вам нужно будет ввести следующее:
+Имя пользователя: {1}
+Код активации: {5}
 
-Thank you,
-{2} Staff";
+Спасибо,
+{2}";
 
 $l['email_activateaccount1'] = "{1},
 
-To complete the registration process on {2}, you will need to go to the URL below in your web browser.
+Чтобы завершить процесс регистрации на {2}, вам нужно перейти по ссылке ниже в вашем веб-браузере.
 
 {3}/member.php?action=activate&uid={4}&code={5}
 
-If the above link does not work correctly, go to
+Если вышеуказанная ссылка не работает правильно, перейдите по адресу
 
 {3}/member.php?action=activate
 
-You will need to enter the following:
-Your email address
-Activation Code: {5}
+Вам нужно будет ввести следующее:
+Ваш email адрес
+Код активации: {5}
 
-Thank you,
-{2} Staff";
+Спасибо,
+{2}";
 
 $l['email_activateaccount2'] = "{1},
 
-To complete the registration process on {2}, you will need to go to the URL below in your web browser.
+Чтобы завершить процесс регистрации на {2}, вам нужно перейти по ссылке ниже в вашем веб-браузере.
 
 {3}/member.php?action=activate&uid={4}&code={5}
 
-If the above link does not work correctly, go to
+Если вышеуказанная ссылка не работает правильно, перейдите по адресу
 
 {3}/member.php?action=activate
 
-You will need to enter the following:
-Username: {1} (Or your email address)
-Activation Code: {5}
+Вам нужно будет ввести следующее:
+Имя пользователя: {1} (Или ваш email адрес)
+Код активации: {5}
 
-Thank you,
-{2} Staff";
+Спасибо,
+{2}";
 
 $l['email_subscription'] = "{1},
 
-{2} has just replied to a thread which you have subscribed to at {3}. This thread is titled {4}.
+{2} только что ответил(а) в теме, на которую вы подписаны на {3}. Эта тема называется {4}.
 
-Here is an excerpt of the message:
+Вот отрывок сообщения:
 ------------------------------------------
 {5}
 ------------------------------------------
 
-To view the thread, you can go to the following URL:
+Чтобы просмотреть тему, вы можете перейти по следующему URL:
 {6}/{7}
 
-There may also be other replies to this thread but you will not receive anymore notifications until you visit the board again.
+Также могут быть другие ответы в этой теме, но вы не будете получать больше уведомлений, пока не посетите форум снова.
 
-Thank you,
-{3} Staff
+Спасибо,
+{3}
 
 ------------------------------------------
-Unsubscription Information:
+Информация об отписке:
 
-If you would not like to receive any more notifications of replies to this thread, visit the following URL in your browser:
+Если вы не хотите получать больше уведомлений об ответах в этой теме, посетите следующий URL в вашем браузере:
 {6}/usercp.php?action=removesubscription&tid={8}
 
 ------------------------------------------";
 $l['email_reachedpmquota'] = "{1},
 
-This is an automated email from {2} to let you know that your Private Messaging inbox has reached its capacity.
+Это автоматическое письмо от {2}, чтобы сообщить вам, что ваш ящик личных сообщений достиг своей вместимости.
 
-One or more users may have tried to send you private messages and were unsuccessful in doing so because of this.
+Один или несколько пользователей могли попытаться отправить вам личные сообщения и не смогли сделать это из-за этого.
 
-Please delete some of your private messages you currently have stored, remembering to also delete them from the 'Trash Can'.
+Пожалуйста, удалите некоторые из ваших личных сообщений, которые у вас сейчас сохранены, не забывая также удалить их из 'Корзины'.
 
-Thank you,
-{2} Staff
+Спасибо,
+{2}
 {3}";
 $l['email_changeemail'] = "{1},
 
-We have received a request on {2} to change your email address (see details below).
+Мы получили запрос на {2} на изменение вашего email адреса (см. детали ниже).
 
-Old Email Address: {3}
-New Email Address: {4}
+Старый email адрес: {3}
+Новый email адрес: {4}
 
-If these changes are correct, please complete the validation process on {2} by going to the following URL in your web browser.
+Если эти изменения верны, пожалуйста, завершите процесс проверки на {2}, перейдя по следующему URL в вашем веб-браузере.
 
 {5}/member.php?action=activate&uid={8}&code={6}
 
-If the above link does not work correctly, go to
+Если вышеуказанная ссылка не работает правильно, перейдите по адресу
 
 {5}/member.php?action=activate
 
-You will need to enter the following:
-Username: {7}
-Activation Code: {6}
+Вам нужно будет ввести следующее:
+Имя пользователя: {7}
+Код активации: {6}
 
-If you choose not to validate your new email address your profile will not be updated and will still contain your existing email address.
+Если вы решите не проверять ваш новый email адрес, ваш профиль не будет обновлен и все еще будет содержать ваш существующий email адрес.
 
-Thank you,
-{2} Staff
+Спасибо,
+{2}
 {5}";
 
 $l['email_changeemail_noactivation'] = "{1},
 
-We have received a request on {2} to change your email address (see details below).
+Мы получили запрос на {2} на изменение вашего email адреса (см. детали ниже).
 
-Old Email Address: {3}
-New Email Address: {4}
+Старый email адрес: {3}
+Новый email адрес: {4}
 
-This change has been automatically processed. If you did not request this change, please get in touch with an Administrator.
+Это изменение было обработано автоматически. Если вы не запрашивали это изменение, пожалуйста, свяжитесь с администратором.
 
-Thank you,
-{2} Staff
+Спасибо,
+{2}
 {5}";
 
 $l['email_changepassword'] = "{1},
 
-You are receiving this email because you, or someone with access to your password, recently changed your account password.
+Вы получаете это письмо, потому что вы или кто-то с доступом к вашему паролю недавно изменил пароль вашего аккаунта.
 
-Username: {1}
-Email address: {2}
+Имя пользователя: {1}
+Email адрес: {2}
 
-If you did not request this change, please get in touch with an Administrator.
+Если вы не запрашивали это изменение, пожалуйста, свяжитесь с администратором.
 
-Thank you,
-{3} Staff
+Спасибо,
+{3}
 {4}";
 
 $l['email_newpm'] = "{1},
 
-You have received a new private message on {3} from {2}:
+Вы получили новое личное сообщение на {3} от {2}:
 
 ------------------------------------------
 {5}
 ------------------------------------------
 
-To view, reply or forward this message, you can follow this link:
+Чтобы просмотреть, ответить или переслать это сообщение, вы можете перейти по этой ссылке:
 
 {4}/private.php
 
-Please note that you will not receive any further notifications of new messages until you visit {3}.
+Обратите внимание, что вы не будете получать дальнейшие уведомления о новых сообщениях, пока не посетите {3}.
 
-You can disable new message notifications on your account options page:
+Вы можете отключить уведомления о новых сообщениях на странице настроек вашего аккаунта:
 
 {4}/usercp.php?action=options
 
-Thank you,
-{3} Staff
+Спасибо,
+{3}
 {4}";
 
 $l['email_emailuser'] = "{1},
 
-{2} from {3} has sent you the following message:
+{2} с {3} отправил(а) вам следующее сообщение:
 ------------------------------------------
 {5}
 ------------------------------------------
 
-Thank you,
-{3} Staff
+Спасибо,
+{3}
 {4}
 
 ------------------------------------------
-Don't want to receive email messages from other members?
+Не хотите получать email сообщения от других пользователей?
 
-If you don't want other members to be able to email you please visit your User Control Panel and enable the option 'Hide your email from other members':
+Если вы не хотите, чтобы другие пользователи могли отправлять вам email, пожалуйста, посетите вашу Панель управления пользователем и включите опцию 'Скрыть ваш email от других пользователей':
 {4}/usercp.php?action=options
 
 ------------------------------------------";
 
 $l['email_groupleader_joinrequest'] = "{1},
 
-{2} has requested to join {3} on {4} (see below).
+{2} запросил(а) вступление в {3} на {4} (см. ниже).
 
-Reason: {5}
+Причина: {5}
 
-To accept or decline this request, go to
+Чтобы принять или отклонить этот запрос, перейдите по адресу
 
 {6}/managegroup.php?gid={7}
 
-Thank you,
-{4} Staff";
-
-$l['email_contact_subject'] = "Contact: {1}";
-$l['email_contact'] = "E-mail: {1}
-Forum profile: {2}
-IP Address: {3}
-Message:
+Спасибо,
 {4}";
 
-$l['pmsubject_subscription'] = "New Reply to {1}";
+$l['email_contact_subject'] = "Контакт: {1}";
+$l['email_contact'] = "Email: {1}
+Профиль на форуме: {2}
+IP адрес: {3}
+Сообщение:
+{4}";
+
+$l['pmsubject_subscription'] = "Новый ответ в {1}";
 $l['pm_subscription'] = "{1},
 
-{2} has just replied to a thread which you have subscribed to. This thread is titled {3}.
+{2} только что ответил(а) в теме, на которую вы подписаны. Эта тема называется {3}.
 
-Here is an excerpt of the message:
+Вот отрывок сообщения:
 ------------------------------------------
 {4}
 ------------------------------------------
 
-To view the thread, you can go to the following URL:
+Чтобы просмотреть тему, вы можете перейти по следующему URL:
 [url]{5}/{6}[/url]
 
-There may also be other replies to this thread but you will not receive anymore notifications until you visit the thread again.
+Также могут быть другие ответы в этой теме, но вы не будете получать больше уведомлений, пока не посетите тему снова.
 
 ------------------------------------------
-Unsubscription Information:
+Информация об отписке:
 
-If you would not like to receive any more notifications of replies to this thread, visit the following URL in your browser:
+Если вы не хотите получать больше уведомлений об ответах в этой теме, посетите следующий URL в вашем браузере:
 [url]{5}/usercp.php?action=removesubscription&tid={7}[/url]
 
 ------------------------------------------";
 
-$l['email_broken_task_subject'] = "MyBB task error on {1}";
-$l['email_broken_task'] = "Your copy of MyBB running on {1} ({2}) has experienced an error with the task system.
+$l['email_broken_task_subject'] = "Ошибка задачи MyBB на {1}";
+$l['email_broken_task'] = "Ваша копия MyBB, работающая на {1} ({2}), столкнулась с ошибкой в системе задач.
 
-The task file for {3} is missing.
+Файл задачи для {3} отсутствует.
 
-This task has been disabled until issue is resolved.";
+Эта задача была отключена до устранения проблемы.";

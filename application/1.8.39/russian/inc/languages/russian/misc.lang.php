@@ -5,78 +5,88 @@
  *
  */
 
-$l['nav_helpdocs'] = "Help Documents";
-$l['nav_smilies'] = "Smilie Listing";
-$l['nav_syndication'] = "Latest Thread Syndication (RSS)";
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
 
-$l['buddy_list'] = "Buddy List";
-$l['online'] = "Online";
-$l['online_none'] = "<em>You have no online buddies</em>";
-$l['offline'] = "Offline";
-$l['offline_none'] = "<em>You have no offline buddies</em>";
+$l['nav_helpdocs'] = "Документы помощи";
+$l['nav_smilies'] = "Список смайлов";
+$l['nav_syndication'] = "Синдикация новых тем (RSS)";
+
+$l['buddy_list'] = "Список друзей";
+$l['online'] = "В сети";
+$l['online_none'] = "<em>У вас нет друзей в сети</em>";
+$l['offline'] = "Не в сети";
+$l['offline_none'] = "<em>У вас нет друзей не в сети</em>";
 $l['delete_buddy'] = "X";
-$l['pm_buddy'] = "Send Private Message";
-$l['last_active'] = "<strong>Last Active:</strong> {1}";
-$l['close'] = "Close";
-$l['no_buddies'] = "<em>Your buddy list is currently empty. Use your User CP or visit a user profile to add users to your buddy list.</em>";
+$l['pm_buddy'] = "Отправить личное сообщение";
+$l['last_active'] = "<strong>Последняя активность:</strong> {1}";
+$l['close'] = "Закрыть";
+$l['no_buddies'] = "<em>Ваш список друзей пуст. Используйте Панель управления пользователя или посетите профиль пользователя, чтобы добавить пользователей в список друзей.</em>";
 
-$l['help_docs'] = "Help Documents";
+$l['help_docs'] = "Документы помощи";
 
-$l['search_help_documents'] = "Search Help Documents";
-$l['search_by_name'] = "Search by Name";
-$l['search_by_document'] = "Search by Document";
-$l['enter_keywords'] = "Enter Keywords";
-$l['search'] = "Search";
-$l['redirect_searchresults'] = "Thank you, your search has been submitted and you will now be taken to the results list.";
-$l['search_results'] = "Search Results";
-$l['help_doc_results'] = "Help Document Results";
-$l['document'] = "Document";
-$l['error_nosearchresults'] = "Sorry, but no results were returned using the query information you provided. Please redefine your search terms and try again.";
-$l['no_help_results'] = "Sorry, but no results were returned using the query information you provided.";
-$l['error_helpsearchdisabled'] = "The ability to search the help documents has been disabled by the Administrator.";
+$l['search_help_documents'] = "Поиск документов помощи";
+$l['search_by_name'] = "Поиск по названию";
+$l['search_by_document'] = "Поиск по документу";
+$l['enter_keywords'] = "Введите ключевые слова";
+$l['search'] = "Поиск";
+$l['redirect_searchresults'] = "Спасибо, ваш поисковый запрос отправлен, и сейчас вы будете перенаправлены к списку результатов.";
+$l['search_results'] = "Результаты поиска";
+$l['help_doc_results'] = "Результаты поиска документов помощи";
+$l['document'] = "Документ";
+$l['error_nosearchresults'] = "Извините, но по вашему запросу не было возвращено результатов. Пожалуйста, переопределите условия поиска и попробуйте снова.";
+$l['no_help_results'] = "Извините, но по вашему запросу не было возвращено результатов.";
+$l['error_helpsearchdisabled'] = "Возможность поиска по документам помощи была отключена администратором.";
 
-$l['smilies_listing'] = "Smilies Listing";
-$l['name'] = "Name";
-$l['abbreviation'] = "Abbreviation";
-$l['click_to_add'] = "Click a smilie to insert it into your message";
-$l['close_window'] = "close window";
-$l['no_smilies'] = "There are currently no smilies available.";
+$l['smilies_listing'] = "Список смайлов";
+$l['name'] = "Название";
+$l['abbreviation'] = "Сокращение";
+$l['click_to_add'] = "Нажмите на смайл, чтобы вставить его в ваше сообщение";
+$l['close_window'] = "закрыть окно";
+$l['no_smilies'] = "В настоящее время нет доступных смайлов.";
 
-$l['who_posted'] = "Who Posted?";
-$l['total_posts'] = "Total Posts:";
-$l['user'] = "User";
-$l['num_posts'] = "# Posts";
+$l['who_posted'] = "Кто писал?";
+$l['total_posts'] = "Всего сообщений:";
+$l['user'] = "Пользователь";
+$l['num_posts'] = "Сообщений";
 
-$l['forum_rules'] = "{1} - Rules";
+$l['forum_rules'] = "{1} - Правила";
 
-$l['error_invalid_limit'] = "The feed item limit you entered is invalid. Please specify a valid limit.";
+$l['error_invalid_limit'] = "Указанный вами лимит элементов ленты недействителен. Пожалуйста, укажите допустимый лимит.";
 
-$l['syndication'] = "Latest Thread Syndication";
-$l['syndication_generated_url'] = "Your Generated Syndication URL:";
-$l['syndication_note'] = "Below you can generate links to specific RSS syndication feeds. Links can be generated for all forums, per forum, or for a specific number of forums. You will then be presented with a link which you can copy in to an RSS reader. <i><a href=\"https://en.wikipedia.org/wiki/RSS\" target=\"_blank\" rel=\"noopener\">What is RSS?</a></i>";
-$l['syndication_forum'] = "Forum to Syndicate:";
-$l['syndication_forum_desc'] = "Please select a forum from the right. Use the CTRL key to select multiple forums.";
-$l['syndication_version'] = "Feed Version:";
-$l['syndication_version_desc'] = "Please select the version of the feeds you wish to generate.";
+$l['syndication'] = "Синдикация новых тем";
+$l['syndication_generated_url'] = "Ваш сгенерированный URL синдикации:";
+$l['syndication_note'] = "Ниже вы можете сгенерировать ссылки на конкретные RSS-ленты синдикации. Ссылки могут быть созданы для всех форумов, для отдельного форума или для определенного количества форумов. Затем вам будет представлена ссылка, которую вы можете скопировать в RSS-ридер. <i><a href=\"https://en.wikipedia.org/wiki/RSS\" target=\"_blank\" rel=\"noopener\">Что такое RSS?</a></i>";
+$l['syndication_forum'] = "Форум для синдикации:";
+$l['syndication_forum_desc'] = "Пожалуйста, выберите форум справа. Используйте клавишу CTRL для выбора нескольких форумов.";
+$l['syndication_version'] = "Версия ленты:";
+$l['syndication_version_desc'] = "Пожалуйста, выберите версию лент, которые вы хотите сгенерировать.";
 $l['syndication_version_json1'] = "JSON Feed 1";
 $l['syndication_version_atom1'] = "Atom 1.0";
-$l['syndication_version_rss2'] = "RSS 2.00 (Default)";
-$l['syndication_generate'] = "Generate Syndication URL";
-$l['syndication_limit'] = "Limit:";
-$l['syndication_limit_desc'] = "The amount of threads to download at one time. 50 at once is maximum limit.";
-$l['syndication_threads_time'] = "threads at a time";
-$l['syndicate_all_forums'] = "Syndicate All Forums";
+$l['syndication_version_rss2'] = "RSS 2.00 (По умолчанию)";
+$l['syndication_generate'] = "Сгенерировать URL синдикации";
+$l['syndication_limit'] = "Лимит:";
+$l['syndication_limit_desc'] = "Количество тем для загрузки за один раз. Максимальный лимит - 50 тем за раз.";
+$l['syndication_threads_time'] = "тем за раз";
+$l['syndicate_all_forums'] = "Синдицировать все форумы";
 
-$l['redirect_markforumread'] = "The selected forum has been marked as read.";
-$l['redirect_markforumsread'] = "All the forums have been marked as read.";
-$l['redirect_forumpasscleared'] = "The stored password for this forum has been cleared.";
-$l['redirect_cookiescleared'] = "All cookies have been cleared.";
+$l['redirect_markforumread'] = "Выбранный форум помечен как прочитанный.";
+$l['redirect_markforumsread'] = "Все форумы помечены как прочитанные.";
+$l['redirect_forumpasscleared'] = "Сохраненный пароль для этого форума был очищен.";
+$l['redirect_cookiescleared'] = "Все cookies были очищены.";
 
-$l['error_invalidforum'] = "Invalid forum";
-$l['error_invalidhelpdoc'] = "The specified help document does not appear to exist.";
-$l['error_invalidsearch'] = "An invalid search was specified.  Please go back and try again.";
-$l['error_no_search_support'] = "This database engine does not support searching.";
-$l['error_searchflooding'] = "Sorry, but you can only perform one search every {1} seconds. Please wait another {2} seconds before attempting to search again.";
-$l['error_searchflooding_1'] = "Sorry, but you can only perform one search every {1} seconds. Please wait another 1 second before attempting to search again.";
+$l['error_invalidforum'] = "Неверный форум";
+$l['error_invalidhelpdoc'] = "Указанный документ помощи, похоже, не существует.";
+$l['error_invalidsearch'] = "Указан неверный поиск. Пожалуйста, вернитесь и попробуйте снова.";
+$l['error_no_search_support'] = "Эта система баз данных не поддерживает поиск.";
+$l['error_searchflooding'] = "Извините, но вы можете выполнять только один поиск каждые {1} секунд. Пожалуйста, подождите еще {2} секунд, прежде чем пытаться выполнить поиск снова.";
+$l['error_searchflooding_1'] = "Извините, но вы можете выполнять только один поиск каждые {1} секунд. Пожалуйста, подождите еще 1 секунду, прежде чем пытаться выполнить поиск снова.";
 
-$l['dst_settings_updated'] = "Your daylight saving time settings have automatically been adjusted.<br /><br />You will now be taken back to the forum index.";
+$l['dst_settings_updated'] = "Настройки летнего времени были автоматически скорректированы.<br /><br />Сейчас вы будете перенаправлены на главную страницу форума.";

@@ -5,7 +5,17 @@
  *
  */
 
-$l['forum'] = "Forum:";
-$l['printable_version'] = "Printable Version";
-$l['pages'] = "Pages:";
-$l['thread'] = "Thread:";
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
+
+$l['forum'] = "Раздел:";
+$l['printable_version'] = "Версия для печати";
+$l['pages'] = "Страницы:";
+$l['thread'] = "Тема:";

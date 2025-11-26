@@ -5,9 +5,19 @@
  *
  */
 
-$l['logindata_invalidpwordusername'] = "You have entered an invalid username/password combination. <br /><br />If you have forgotten your password please <a href=\"member.php?action=lostpw\">retrieve a new one</a>.";
-$l['logindata_invalidpwordusernameemail'] = "You have entered an invalid email/password combination. <br /><br />If you have forgotten your password please <a href=\"member.php?action=lostpw\">retrieve a new one</a>.";
-$l['logindata_invalidpwordusernamecombo'] = "You have entered an invalid username/password or email/password combination. <br /><br />If you have forgotten your password please <a href=\"member.php?action=lostpw\">retrieve a new one</a>.";
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
 
-$l['logindata_regimageinvalid'] = "The image verification code that you entered was incorrect. Please enter the code exactly how it appears in the image.";
-$l['logindata_regimagerequired'] = "Please fill out the image verification code to continue the login process. Please enter the code exactly how it appears in the image.";
+$l['logindata_invalidpwordusername'] = "Вы ввели неверную комбинацию имени пользователя/пароля. <br /><br />Если вы забыли свой пароль, пожалуйста, <a href=\"member.php?action=lostpw\">восстановите его</a>.";
+$l['logindata_invalidpwordusernameemail'] = "Вы ввели неверную комбинацию email/пароля. <br /><br />Если вы забыли свой пароль, пожалуйста, <a href=\"member.php?action=lostpw\">восстановите его</a>.";
+$l['logindata_invalidpwordusernamecombo'] = "Вы ввели неверную комбинацию имени пользователя/пароля или email/пароля. <br /><br />Если вы забыли свой пароль, пожалуйста, <a href=\"member.php?action=lostpw\">восстановите его</a>.";
+
+$l['logindata_regimageinvalid'] = "Код проверки изображения, который вы ввели, неверен. Пожалуйста, введите код точно так, как он отображается на изображении.";
+$l['logindata_regimagerequired'] = "Пожалуйста, заполните код проверки изображения, чтобы продолжить процесс входа. Введите код точно так, как он отображается на изображении.";

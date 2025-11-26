@@ -5,50 +5,60 @@
  *
  */
 
-$l['nav_newthread'] = "New Thread";
-$l['newthread_in'] = "New Thread in {1}";
-$l['post_new_thread'] = "Post a new Thread";
-$l['thread_subject'] = "Thread Subject:";
-$l['your_message'] = "Your Message:";
-$l['post_options'] = "Post Options:";
-$l['options_sig'] = "<b>Signature:</b> include your signature. (registered users only)";
-$l['options_emailnotify'] = "<b>Email Notification:</b> receive an email whenever there is a new reply. (registered users only)";
-$l['options_disablesmilies'] = "<b>Disable Smilies:</b> disable smilies from showing in this post.";
-$l['post_thread'] = "Post Thread";
-$l['preview_post'] = "Preview Post";
-$l['poll'] = "Poll:";
-$l['poll_desc'] = "Optionally you may attach a poll to this thread.";
-$l['poll_check'] = "I want to post a poll";
-$l['num_options'] = "Number of options:";
-$l['max_options'] = "(Maximum: {1})";
-$l['mod_options'] = "Moderator Options:";
-$l['close_thread'] = "<b>Close Thread</b>: prevent further posting in this thread.";
-$l['stick_thread'] = "<b>Stick Thread:</b> stick this thread to the top of the forum.";
-$l['draft_saved'] = "The new thread has successfully been saved as a draft.<br />You will now be taken to your draft listing.";
-$l['error_post_already_submitted'] = "You have already posted this thread in this forum. Please visit the forum to see your thread.";
-$l['no_prefix'] = "No Prefix";
-$l['forum_rules'] = "{1} - Rules";
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
 
-$l['multiquote_external_one'] = "You have selected one post from another thread.";
-$l['multiquote_external'] = "You have selected {1} posts from other threads.";
-$l['multiquote_external_one_deselect'] = "deselect this post";
-$l['multiquote_external_deselect'] = "deselect these posts";
-$l['multiquote_external_one_quote'] = "Quote this post too";
-$l['multiquote_external_quote'] = "Quote these posts too";
+$l['nav_newthread'] = "Новая тема";
+$l['newthread_in'] = "Новая тема в разделе {1}";
+$l['post_new_thread'] = "Создать новую тему";
+$l['thread_subject'] = "Заголовок темы:";
+$l['your_message'] = "Ваше сообщение:";
+$l['post_options'] = "Параметры сообщения:";
+$l['options_sig'] = "<b>Подпись:</b> добавить вашу подпись. (только для зарегистрированных пользователей)";
+$l['options_emailnotify'] = "<b>Уведомление по email:</b> получать email при новых ответах. (только для зарегистрированных пользователей)";
+$l['options_disablesmilies'] = "<b>Отключить смайлы:</b> отключить отображение смайлов в этом сообщении.";
+$l['post_thread'] = "Создать тему";
+$l['preview_post'] = "Предпросмотр";
+$l['poll'] = "Опрос:";
+$l['poll_desc'] = "При желании вы можете добавить опрос к этой теме.";
+$l['poll_check'] = "Я хочу создать опрос";
+$l['num_options'] = "Количество вариантов:";
+$l['max_options'] = "(Максимум: {1})";
+$l['mod_options'] = "Действия модератора:";
+$l['close_thread'] = "<b>Закрыть тему</b>: запретить дальнейшие ответы в этой теме.";
+$l['stick_thread'] = "<b>Закрепить тему:</b> закрепить эту тему вверху раздела.";
+$l['draft_saved'] = "Новая тема успешно сохранена как черновик.<br />Сейчас вы будете перенаправлены к списку ваших черновиков.";
+$l['error_post_already_submitted'] = "Вы уже создавали эту тему в этом разделе. Пожалуйста, посетите раздел, чтобы увидеть вашу тему.";
+$l['no_prefix'] = "Без префикса";
+$l['forum_rules'] = "{1} - Правила";
 
-$l['redirect_newthread'] = "Thank you, your thread has been posted.";
-$l['redirect_newthread_poll'] = "<br />You will now be taken to the poll options and configuration page.";
-$l['redirect_newthread_moderation'] = "<br />The administrator has specified that all new threads require moderation. You will now be returned to the thread listing.";
-$l['redirect_newthread_unviewable'] = "<br />You do not have permission to view threads in this forum. You will now be returned to the forum.";
-$l['redirect_newthread_thread'] = "<br />You will now be taken to the new thread.";
-$l['invalidthread'] = "The specified draft does not exist or you don't have permission to view it.";
+$l['multiquote_external_one'] = "Вы выбрали одно сообщение из другой темы.";
+$l['multiquote_external'] = "Вы выбрали {1} сообщений из других тем.";
+$l['multiquote_external_one_deselect'] = "отменить выбор этого сообщения";
+$l['multiquote_external_deselect'] = "отменить выбор этих сообщений";
+$l['multiquote_external_one_quote'] = "Также процитировать это сообщение";
+$l['multiquote_external_quote'] = "Также процитировать эти сообщения";
 
-$l['error_stop_forum_spam_spammer'] = 'Sorry, your {1} matches that of a known spammer. If you feel this is a mistake, please contact an administrator';
-$l['error_stop_forum_spam_fetching'] = 'Sorry, something went wrong verifying your thread against a spammer database. Most likely the database couldn\'t be accessed. Please try again later.';
+$l['redirect_newthread'] = "Спасибо, ваша тема была создана.";
+$l['redirect_newthread_poll'] = "<br />Сейчас вы будете перенаправлены на страницу настройки опроса.";
+$l['redirect_newthread_moderation'] = "<br />Администратор установил, что все новые темы требуют модерации. Сейчас вы будете перенаправлены обратно к списку тем.";
+$l['redirect_newthread_unviewable'] = "<br />У вас нет прав для просмотра тем в этом разделе. Сейчас вы будете перенаправлены обратно в раздел.";
+$l['redirect_newthread_thread'] = "<br />Сейчас вы будете перенаправлены в новую тему.";
+$l['invalidthread'] = "Указанный черновик не существует или у вас нет прав для его просмотра.";
 
-$l['error_suspendedposting'] = "Your posting privileges are currently suspended {1}.<br /><br />
+$l['error_stop_forum_spam_spammer'] = 'Извините, ваш {1} совпадает с данными известного спамера. Если вы считаете, что это ошибка, пожалуйста, свяжитесь с администратором';
+$l['error_stop_forum_spam_fetching'] = 'Извините, произошла ошибка при проверке вашей темы в базе данных спамеров. Скорее всего, база данных была недоступна. Пожалуйста, попробуйте позже.';
 
-Suspension Date: {2}";
-$l['error_suspendedposting_temporal'] = "until {1}";
-$l['error_suspendedposting_permanent'] = "permanently";
+$l['error_suspendedposting'] = "Ваши права на создание сообщений в настоящее время приостановлены {1}.<br /><br />
+
+Дата приостановки: {2}";
+$l['error_suspendedposting_temporal'] = "до {1}";
+$l['error_suspendedposting_permanent'] = "навсегда";
 

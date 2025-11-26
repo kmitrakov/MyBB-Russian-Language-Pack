@@ -8,9 +8,19 @@
  *
  */
 
-$l['hello'] = 'Hello World!';
-$l['hello_add'] = 'Add';
-$l['hello_add_message'] = 'Add Message';
-$l['hello_empty'] = 'No messages were found.';
-$l['hello_message_empty'] = 'Message cannot be empty.';
-$l['hello_done'] = 'Successfully added a new message.';
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
+
+$l['hello'] = 'Привет, Мир!';
+$l['hello_add'] = 'Добавить';
+$l['hello_add_message'] = 'Добавить сообщение';
+$l['hello_empty'] = 'Сообщения не найдены.';
+$l['hello_message_empty'] = 'Сообщение не может быть пустым.';
+$l['hello_done'] = 'Новое сообщение успешно добавлено.';

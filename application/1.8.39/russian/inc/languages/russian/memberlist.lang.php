@@ -5,49 +5,59 @@
  *
  */
 
-$l['nav_memberlist'] = "Member List";
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
 
-$l['memberlist_disabled'] = "The member list functionality has been disabled by the Administrator.";
+$l['nav_memberlist'] = "Список пользователей";
 
-$l['member_list'] = "Member List";
-$l['avatar']  = "Avatar";
-$l['username'] = "Username";
-$l['joined'] = "Joined";
-$l['lastvisit'] = "Last Visit";
-$l['posts'] = "Post Count";
-$l['threads'] = "Thread Count";
-$l['referrals'] = "Referrals";
-$l['search_members'] = "Search Member List";
-$l['website'] = "Website";
-$l['sort_by'] = "Sort by";
-$l['contains'] = "Contains:";
-$l['exactly'] = "Exactly:";
-$l['sort_by_username'] = "Sort by: Username";
-$l['sort_by_regdate'] = "Sort by: Registration date";
-$l['sort_by_lastvisit'] = "Sort by: Last visit";
-$l['sort_by_posts'] = "Sort by: Post count";
-$l['sort_by_threads'] = "Sort by: Thread count";
-$l['sort_by_referrals'] = "Sort by: Members referred";
-$l['order_asc'] = "ascending order";
-$l['order_desc'] = "descending order";
-$l['asc'] = "asc";
-$l['desc'] = "desc";
-$l['forumteam'] = "Show Forum Team";
-$l['advanced_search'] = "Advanced Search";
-$l['nav_memberlist_search'] = "Search";
-$l['search_member_list'] = "Search Member List";
-$l['search_criteria'] = "Search Criteria";
-$l['begins_with'] = "begins with";
-$l['username_contains'] = "contains";
-$l['username_exact'] = "exactly";
-$l['search_website'] = "Website URL";
-$l['search_skype'] = "Skype Address";
-$l['search_google'] = "Google Hangouts Address";
-$l['search_options'] = "Search Options";
-$l['per_page'] = "Results Per Page";
-$l['search'] = "Search";
+$l['memberlist_disabled'] = "Функциональность списка пользователей была отключена администратором.";
 
-$l['error_no_members'] = "<p>There were no members found with the search criteria you entered.</p><p>Please enter a different search term and try again.</p>";
+$l['member_list'] = "Список пользователей";
+$l['avatar']  = "Аватар";
+$l['username'] = "Имя пользователя";
+$l['joined'] = "Зарегистрирован";
+$l['lastvisit'] = "Последний визит";
+$l['posts'] = "Сообщений";
+$l['threads'] = "Тем";
+$l['referrals'] = "Приглашено";
+$l['search_members'] = "Поиск по списку пользователей";
+$l['website'] = "Веб-сайт";
+$l['sort_by'] = "Сортировать по";
+$l['contains'] = "Содержит:";
+$l['exactly'] = "Точно:";
+$l['sort_by_username'] = "Сортировать по: Имя пользователя";
+$l['sort_by_regdate'] = "Сортировать по: Дата регистрации";
+$l['sort_by_lastvisit'] = "Сортировать по: Последний визит";
+$l['sort_by_posts'] = "Сортировать по: Количество сообщений";
+$l['sort_by_threads'] = "Сортировать по: Количество тем";
+$l['sort_by_referrals'] = "Сортировать по: Приглашено пользователей";
+$l['order_asc'] = "по возрастанию";
+$l['order_desc'] = "по убыванию";
+$l['asc'] = "возр";
+$l['desc'] = "убыв";
+$l['forumteam'] = "Показать команду форума";
+$l['advanced_search'] = "Расширенный поиск";
+$l['nav_memberlist_search'] = "Поиск";
+$l['search_member_list'] = "Поиск по списку пользователей";
+$l['search_criteria'] = "Критерии поиска";
+$l['begins_with'] = "начинается с";
+$l['username_contains'] = "содержит";
+$l['username_exact'] = "точно";
+$l['search_website'] = "URL веб-сайта";
+$l['search_skype'] = "Skype адрес";
+$l['search_google'] = "Google Hangouts адрес";
+$l['search_options'] = "Параметры поиска";
+$l['per_page'] = "Результатов на страницу";
+$l['search'] = "Поиск";
+
+$l['error_no_members'] = "<p>Не найдено пользователей по введенным критериям поиска.</p><p>Пожалуйста, введите другой поисковый запрос и попробуйте снова.</p>";
 
 $l['a'] = 'A';
 $l['b'] = 'B';

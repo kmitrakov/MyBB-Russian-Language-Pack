@@ -5,12 +5,22 @@
  *
  */
 
-$l['error_no_connection'] = 'There was an error establishing a connection through the server: ';
-$l['error_no_message'] = 'There was no message specified.';
-$l['error_no_subject'] = 'There was no subject specified.';
-$l['error_no_recipient'] = 'There was no recipient specified.';
-$l['error_not_sent'] = 'There was a error while trying to send the mail through php mail function.';
-$l['error_status_missmatch'] = 'The status from server mismatches expected result, returning: ';
-$l['error_data_not_sent'] = 'This data could not be sent to server: ';
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
 
-$l['error_occurred'] = 'One or more errors have occurred. Please correct the following errors before continuing.<br />';
+$l['error_no_connection'] = 'Произошла ошибка при установке соединения с сервером: ';
+$l['error_no_message'] = 'Сообщение не указано.';
+$l['error_no_subject'] = 'Тема не указана.';
+$l['error_no_recipient'] = 'Получатель не указан.';
+$l['error_not_sent'] = 'Произошла ошибка при попытке отправить почту через функцию php mail.';
+$l['error_status_missmatch'] = 'Статус от сервера не соответствует ожидаемому результату, возвращено: ';
+$l['error_data_not_sent'] = 'Эти данные не могут быть отправлены на сервер: ';
+
+$l['error_occurred'] = 'Произошла одна или несколько ошибок. Пожалуйста, исправьте следующие ошибки перед продолжением.<br />';

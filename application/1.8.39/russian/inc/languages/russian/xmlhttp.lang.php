@@ -5,41 +5,51 @@
  *
  */
 
-$l['no_new_subject'] = "You did not enter a new subject.";
-$l['post_moderation'] = "Your post is now under moderation.";
-$l['thread_moderation'] = "Your thread is now under moderation.";
-$l['post_doesnt_exist'] = "The specified post does not exist.";
-$l['thread_doesnt_exist'] = "The specified thread does not exist.";
-$l['thread_closed_edit_subjects'] = "This thread is closed and you may not edit subjects.";
-$l['no_permission_edit_subject'] = "You do not have permission to edit this thread subject.";
-$l['thread_closed_edit_message'] = "This thread is closed and you may not edit messages within it.";
-$l['no_permission_edit_post'] = "You do not have permission to edit this message.";
-$l['edit_time_limit'] = "You can only edit messages for {1} minutes after they were posted.";
-$l['postbit_edited'] = "This post was last modified: {1} by";
-$l['postbit_editreason'] = "Edit Reason";
-$l['save_changes'] = "Save Changes";
-$l['cancel_edit'] = "Cancel Edit";
-$l['answer_valid_not_exists'] = "The question you are trying to answer does not exist.";
-$l['captcha_not_exists'] = "The image verification image you are trying to refresh does not exist.";
-$l['captcha_valid_not_exists'] = "The image verification image you are trying to check does not seem to exist.";
-$l['captcha_does_not_match'] = "The image verification code that you entered was incorrect. Please enter the code exactly how it appears in the image.";
-$l['captcha_matches'] = "The image verification code you entered was correct.";
-$l['answer_does_not_match'] = "The answer you entered is not correct.";
-$l['banned_username'] = "The username you entered has been disallowed by the administrator";
-$l['banned_characters_username'] = "Your username contains one or more invalid characters";
-$l['complex_password_fails'] = "Password requires an upper case letter, lower case letter and a number";
-$l['username_taken'] = "{1} is already registered by another member";
-$l['username_available'] = "{1} is available";
-$l['invalid_username'] = "{1} is not the username of a registered member";
-$l['valid_username'] = "{1} is a valid referrer.";
-$l['buddylist_error'] = "It seems like you do not have any buddies on your buddy list. Please add some before trying to use this.";
-$l['close'] = "Close";
-$l['select_buddies'] = "Select Buddies";
-$l['select_buddies_desc'] = "To add one or more of your buddies as recipients, select them below and click OK.";
-$l['selected_recipients'] = "Selected recipients";
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
+
+$l['no_new_subject'] = "Вы не ввели новую тему.";
+$l['post_moderation'] = "Ваше сообщение отправлено на модерацию.";
+$l['thread_moderation'] = "Ваша тема отправлена на модерацию.";
+$l['post_doesnt_exist'] = "Указанное сообщение не существует.";
+$l['thread_doesnt_exist'] = "Указанная тема не существует.";
+$l['thread_closed_edit_subjects'] = "Эта тема закрыта, и вы не можете редактировать названия.";
+$l['no_permission_edit_subject'] = "У вас нет прав для редактирования названия этой темы.";
+$l['thread_closed_edit_message'] = "Эта тема закрыта, и вы не можете редактировать сообщения в ней.";
+$l['no_permission_edit_post'] = "У вас нет прав для редактирования этого сообщения.";
+$l['edit_time_limit'] = "Вы можете редактировать сообщения только в течение {1} минут после их публикации.";
+$l['postbit_edited'] = "Это сообщение было отредактировано: {1} пользователем";
+$l['postbit_editreason'] = "Причина редактирования";
+$l['save_changes'] = "Сохранить изменения";
+$l['cancel_edit'] = "Отменить редактирование";
+$l['answer_valid_not_exists'] = "Вопрос, на который вы пытаетесь ответить, не существует.";
+$l['captcha_not_exists'] = "Изображение проверки, которое вы пытаетесь обновить, не существует.";
+$l['captcha_valid_not_exists'] = "Изображение проверки, которое вы пытаетесь проверить, не существует.";
+$l['captcha_does_not_match'] = "Код проверки, который вы ввели, неверен. Пожалуйста, введите код точно так, как он показан на изображении.";
+$l['captcha_matches'] = "Код проверки, который вы ввели, верен.";
+$l['answer_does_not_match'] = "Введённый вами ответ неверен.";
+$l['banned_username'] = "Введённое вами имя пользователя запрещено администратором";
+$l['banned_characters_username'] = "Ваше имя пользователя содержит один или несколько недопустимых символов";
+$l['complex_password_fails'] = "Пароль должен содержать заглавную букву, строчную букву и цифру";
+$l['username_taken'] = "{1} уже занято другим пользователем";
+$l['username_available'] = "{1} доступно";
+$l['invalid_username'] = "{1} не является именем зарегистрированного пользователя";
+$l['valid_username'] = "{1} является действительным реферером.";
+$l['buddylist_error'] = "Похоже, у вас нет друзей в списке друзей. Пожалуйста, добавьте несколько перед использованием этой функции.";
+$l['close'] = "Закрыть";
+$l['select_buddies'] = "Выбрать друзей";
+$l['select_buddies_desc'] = "Чтобы добавить одного или нескольких друзей в качестве получателей, выберите их ниже и нажмите OK.";
+$l['selected_recipients'] = "Выбранные получатели";
 $l['ok'] = "OK";
-$l['cancel'] = "Cancel";
-$l['online'] = "Online";
-$l['offline'] = "Offline";
-$l['edited_post'] = "Edited Post";
-$l['usergroup'] = "Usergroup";
+$l['cancel'] = "Отмена";
+$l['online'] = "В сети";
+$l['offline'] = "Не в сети";
+$l['edited_post'] = "Отредактированное сообщение";
+$l['usergroup'] = "Группа";

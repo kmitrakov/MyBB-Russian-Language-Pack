@@ -5,28 +5,38 @@
  *
  */
 
-$l['report_reason'] = "Report reason:";
-$l['report_to_mod'] = "Report content to a moderator";
-$l['close_window'] = "Close Window";
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
+
+$l['report_reason'] = "Причина жалобы:";
+$l['report_to_mod'] = "Пожаловаться на контент модератору";
+$l['close_window'] = "Закрыть окно";
 
 // Content types
-$l['report_content'] = "Report Content";
-$l['report_reason_post'] = "Report Post";
-$l['report_reason_profile'] = "Report Profile";
-$l['report_reason_reputation'] = "Report Reputation";
+$l['report_content'] = "Пожаловаться на контент";
+$l['report_reason_post'] = "Пожаловаться на сообщение";
+$l['report_reason_profile'] = "Пожаловаться на профиль";
+$l['report_reason_reputation'] = "Пожаловаться на репутацию";
 
 // Content reasons
-$l['report_reason_rules'] = "Breaks Forum Rules";
-$l['report_reason_bad'] = "Inappropriate Content";
-$l['report_reason_spam'] = "Spam Content";
-$l['report_reason_wrong'] = "Wrong Forum";
-$l['report_reason_other'] = "Other";
+$l['report_reason_rules'] = "Нарушает правила форума";
+$l['report_reason_bad'] = "Неуместный контент";
+$l['report_reason_spam'] = "Спам";
+$l['report_reason_wrong'] = "Неверный форум";
+$l['report_reason_other'] = "Другое";
 
-$l['success_report_voted'] = "Thanks for reporting this content.<br />A member of the forum team will check your report soon.";
+$l['success_report_voted'] = "Спасибо за жалобу на этот контент.<br />Член команды форума проверит вашу жалобу в ближайшее время.";
 
-$l['error_report_length'] = "Please provide a detailed reason for your report.";
-$l['error_invalid_report'] = "This {1} either does not exist or is not allowed to be reported.";
-$l['error_invalid_report_reason'] = "The selected reason is invalid.";
-$l['error_comment_required'] = "An additional comment is required for the selected reason.";
-$l['error_report_duplicate'] = "This content has already been reported by another member.<br />You may also report this content below.";
-$l['report_reason_other_description'] = "Please provide more information about why you are reporting this content.";
+$l['error_report_length'] = "Пожалуйста, укажите подробную причину вашей жалобы.";
+$l['error_invalid_report'] = "Этот {1} либо не существует, либо на него нельзя пожаловаться.";
+$l['error_invalid_report_reason'] = "Выбранная причина недействительна.";
+$l['error_comment_required'] = "Для выбранной причины требуется дополнительный комментарий.";
+$l['error_report_duplicate'] = "На этот контент уже пожаловался другой пользователь.<br />Вы также можете пожаловаться на этот контент ниже.";
+$l['report_reason_other_description'] = "Пожалуйста, предоставьте больше информации о причине жалобы на этот контент.";

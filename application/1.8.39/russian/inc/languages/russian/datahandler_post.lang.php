@@ -5,26 +5,36 @@
  *
  */
 
-$l['postdata_invalid_user_id'] = 'The user id does not exist. Please supply a valid user id.';
-$l['postdata_firstpost_no_subject'] = 'The thread does not have a subject. Please enter a subject.';
-$l['postdata_missing_subject'] = 'The subject is missing. Please enter a subject.';
-$l['postdata_missing_message'] = 'The message is missing. Please enter a message.';
-$l['postdata_message_too_long'] = 'The message is too long. Please enter a message shorter than {1} characters (currently {2}).';
-$l['postdata_message_too_short'] = 'The message is too short. Please enter a message longer than {1} characters.';
-$l['postdata_subject_too_long'] = 'The subject is too long. Please enter a subject shorter than 85 characters (currently {1}).';
-$l['postdata_banned_username'] = 'The username you entered may not be registered. Please enter a different username.';
-$l['postdata_bad_characters_username'] = 'The username you entered contains bad characters. Please enter a different username.';
-$l['postdata_invalid_username_length'] = 'The username you entered is of invalid length. Please enter a username between {1} and {2} characters.';
-$l['postdata_username_exists'] = 'The username you entered already exists. Please enter a different username.';
-$l['postdata_post_flooding'] = 'You are trying to post a message too quickly after posting a previous message. Please wait {1} more seconds.';
-$l['postdata_post_flooding_one_second'] = 'You are trying to post a message too quickly after posting a previous message. Please wait 1 more second.';
-$l['postdata_too_many_images'] = 'The message you entered contained {1} images, while only {2} images per message are allowed. Please lower the image count in your message to meet the limit.';
-$l['postdata_too_many_videos'] = 'The message you entered contained {1} videos, while only {2} videos per message are allowed. Please lower the video count in your message to meet the limit.';
-$l['postdata_invalid_prefix'] = 'The selected prefix is invalid. Please select a valid prefix.';
-$l['postdata_require_prefix'] = 'This forum requires a thread prefix to be set. Please select a valid prefix.';
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
 
-$l['thread_closed'] = "Thread Closed";
-$l['thread_opened'] = "Thread Opened";
-$l['thread_stuck'] = "Thread Stuck";
-$l['thread_unstuck'] = "Thread Unstuck";
+$l['postdata_invalid_user_id'] = 'Идентификатор пользователя не существует. Пожалуйста, укажите действительный идентификатор пользователя.';
+$l['postdata_firstpost_no_subject'] = 'Тема не имеет названия. Пожалуйста, введите название темы.';
+$l['postdata_missing_subject'] = 'Отсутствует тема. Пожалуйста, введите тему.';
+$l['postdata_missing_message'] = 'Отсутствует сообщение. Пожалуйста, введите сообщение.';
+$l['postdata_message_too_long'] = 'Сообщение слишком длинное. Пожалуйста, введите сообщение короче {1} символов (сейчас {2}).';
+$l['postdata_message_too_short'] = 'Сообщение слишком короткое. Пожалуйста, введите сообщение длиннее {1} символов.';
+$l['postdata_subject_too_long'] = 'Тема слишком длинная. Пожалуйста, введите тему короче 85 символов (сейчас {1}).';
+$l['postdata_banned_username'] = 'Введенное имя пользователя не может быть зарегистрировано. Пожалуйста, введите другое имя пользователя.';
+$l['postdata_bad_characters_username'] = 'Введенное имя пользователя содержит недопустимые символы. Пожалуйста, введите другое имя пользователя.';
+$l['postdata_invalid_username_length'] = 'Введенное имя пользователя имеет недопустимую длину. Пожалуйста, введите имя пользователя длиной от {1} до {2} символов.';
+$l['postdata_username_exists'] = 'Введенное имя пользователя уже существует. Пожалуйста, введите другое имя пользователя.';
+$l['postdata_post_flooding'] = 'Вы пытаетесь отправить сообщение слишком быстро после отправки предыдущего сообщения. Пожалуйста, подождите еще {1} секунд(ы).';
+$l['postdata_post_flooding_one_second'] = 'Вы пытаетесь отправить сообщение слишком быстро после отправки предыдущего сообщения. Пожалуйста, подождите еще 1 секунду.';
+$l['postdata_too_many_images'] = 'Введенное вами сообщение содержит {1} изображений, тогда как разрешено только {2} изображений на сообщение. Пожалуйста, уменьшите количество изображений в вашем сообщении, чтобы соответствовать лимиту.';
+$l['postdata_too_many_videos'] = 'Введенное вами сообщение содержит {1} видео, тогда как разрешено только {2} видео на сообщение. Пожалуйста, уменьшите количество видео в вашем сообщении, чтобы соответствовать лимиту.';
+$l['postdata_invalid_prefix'] = 'Выбранный префикс недействителен. Пожалуйста, выберите действительный префикс.';
+$l['postdata_require_prefix'] = 'Этот форум требует установки префикса темы. Пожалуйста, выберите действительный префикс.';
+
+$l['thread_closed'] = "Тема закрыта";
+$l['thread_opened'] = "Тема открыта";
+$l['thread_stuck'] = "Тема закреплена";
+$l['thread_unstuck'] = "Тема откреплена";
 

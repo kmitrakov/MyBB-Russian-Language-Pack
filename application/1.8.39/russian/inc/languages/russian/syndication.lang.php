@@ -5,9 +5,19 @@
  *
  */
 
-$l['all_forums'] = "All Forums";
-$l['forum'] = "Forum:";
-$l['posted_by'] = "Posted By:";
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
+
+$l['all_forums'] = "Все форумы";
+$l['forum'] = "Форум:";
+$l['posted_by'] = "Автор:";
 $l['on'] = "on";
-$l['portal'] = "Portal";
+$l['portal'] = "Портал";
 
