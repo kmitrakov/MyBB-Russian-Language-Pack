@@ -5,14 +5,24 @@
  *
  */
 
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
+
 // The friendly name of the language
-$langinfo['name'] = "English (American)";
+$langinfo['name'] = "Russian";
 
 // The author of the language
-$langinfo['author'] = "MyBB Group";
+$langinfo['author'] = "Kirill Mitrakov";
 
 // The language authors website
-$langinfo['website'] = "https://mybb.com/";
+$langinfo['website'] = "https://github.com/kmitrakov";
 
 // The documentation site link
 //$langinfo['docs_link'] = "";
@@ -36,7 +46,7 @@ $langinfo['admin'] = 1;
 $langinfo['rtl'] = 0;
 
 // Sets the lang in the <html> on all pages
-$langinfo['htmllang'] = "en";
+$langinfo['htmllang'] = "ru";
 
 // Sets the character set, blank uses the default.
 $langinfo['charset'] = "UTF-8";
