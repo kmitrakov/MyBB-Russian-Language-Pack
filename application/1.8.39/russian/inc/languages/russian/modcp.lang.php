@@ -1,0 +1,343 @@
+<?php
+/**
+ * MyBB 1.8 English Language Pack
+ * Copyright 2014 MyBB Group, All Rights Reserved
+ *
+ */
+
+/**
+ * MyBB Russian Language Pack
+ *
+ * Author: Kirill Mitrakov
+ * Author website: https://github.com/kmitrakov
+ *
+ * Compatible version of MyBB: 1.8.39
+ *
+ */
+
+$l['nav_width'] = "180";
+$l['nav_modcp'] = "Mod CP";
+$l['nav_menu'] = "Меню";
+
+$l['mcp_nav_home'] = "Главная Mod CP";
+$l['mcp_nav_forums'] = "Форумы &amp; Сообщения";
+$l['mcp_nav_announcements'] = "Объявления";
+$l['mcp_nav_modqueue'] = "Очередь модерации";
+$l['mcp_nav_report_center'] = "Центр жалоб";
+$l['mcp_nav_all_reports'] = "Все жалобы";
+$l['mcp_nav_modlogs'] = "Логи модераторов";
+$l['mcp_nav_users'] = "Пользователи";
+$l['mcp_nav_editprofile'] = "Редактор профиля";
+$l['mcp_nav_banning'] = "Баны";
+$l['mcp_nav_warninglogs'] = "Логи предупреждений";
+$l['mcp_nav_ipsearch'] = "Поиск по IP";
+$l['mcp_nav_editing_ban'] = "Редактирование бана";
+$l['mcp_nav_ban_user'] = "Забанить пользователя";
+$l['mcp_nav_modqueue_threads'] = "Очередь модерации тем";
+$l['mcp_nav_modqueue_posts'] = "Очередь модерации сообщений";
+$l['mcp_nav_modqueue_attachments'] = "Очередь модерации вложений";
+
+$l['modcp'] = "Панель модератора";
+
+$l['view_all_reports'] = "Просмотреть все жалобы";
+$l['all_reports'] = "Все жалобы";
+$l['report_center'] = "Центр жалоб";
+$l['post_id'] = "ID сообщения";
+$l['poster'] = "Автор";
+$l['thread'] = "Тема";
+$l['reporter'] = "Жалобщик";
+$l['report_reason'] = "Причина";
+$l['report_time'] = "Время жалобы";
+$l['mark_read'] = "Отметить выбранные как прочитанные";
+$l['no_reports'] = "В настоящее время нет непрочитанных жалоб.";
+$l['no_logs'] = "В настоящее время нет записей о действиях модераторов.";
+$l['error_noselected_reports'] = "Извините, но вы не выбрали ни одного контента для отметки как прочитанного.";
+$l['error_missing_ipaddress'] = "Извините, но вы не ввели IP-адрес для поиска.";
+$l['error_no_results'] = "Извините, по выбранным критериям не найдено результатов.";
+$l['redirect_reportsmarked'] = "Выбранный контент с жалобами отмечен как прочитанный.";
+$l['redirect_allreportsmarked'] = "Весь контент с жалобами отмечен как прочитанный.";
+$l['redirect_modnotes'] = "Заметки модератора обновлены.";
+
+$l['for'] = "Для";
+$l['report_info'] = "Контент с жалобой";
+$l['report_type'] = "Причина жалобы";
+$l['report_count'] = "Кол-во жалоб";
+$l['report_lastpost'] = "Последняя жалоба";
+
+$l['report_reason_other'] = "Другая причина";
+
+$l['report_info_post'] = "<a href=\"{1}\">Сообщение</a> от {2}";
+$l['report_info_post_thread'] = "<br /><span class=\"smalltext\">В <a href=\"{1}\">{2}</a></span>";
+$l['report_info_profile'] = "Профиль {1}";
+$l['report_info_reputation'] = "<a href=\"{1}\">Репутация</a> от {2}";
+$l['report_info_rep_profile'] = "<br /><span class=\"smalltext\">В профиле {1}</span>";
+$l['report_info_lastreporter'] = "{1}<br />от {2}";
+
+$l['page_selected'] = "Все <strong>{1}</strong> непрочитанные жалобы на этой странице выбраны.";
+$l['all_selected'] = "Все <strong>{1}</strong> непрочитанные жалобы выбраны.";
+$l['select_all'] = "Выбрать все <strong>{1}</strong> непрочитанные жалобы.";
+$l['clear_selection'] = "Очистить выбор.";
+
+$l['moderator_notes'] = "Заметки модератора";
+$l['notes_public_all'] = "Эти заметки видны всем модераторам.";
+$l['save_notes'] = "Сохранить заметки";
+$l['bans_ending_soon'] = "Баны, заканчивающиеся скоро";
+$l['latest_5_modactions'] = "5 последних действий модераторов";
+$l['awaiting_moderation'] = "Ожидают модерации";
+$l['type'] = "Тип";
+$l['number_awaiting'] = "Количество ожидающих";
+$l['latest'] = "Последний";
+$l['ipsearch'] = "Поиск по IP";
+$l['ipsearch_results'] = "Результаты поиска по IP '{1}'";
+$l['ipaddress_search'] = "Поиск по IP-адресу";
+$l['ipaddress_misc_info'] = "Разная информация для '{1}'";
+$l['ipaddress_host_name'] = "Имя хоста:";
+$l['ipaddress_location'] = "Местоположение GeoIP:";
+$l['search_users'] = "Поиск пользователей";
+$l['search_posts'] = "Поиск сообщений";
+$l['ip_address'] = "IP-адрес:";
+$l['result'] = "Результат";
+$l['ipresult_regip'] = "IP регистрации:";
+$l['ipresult_lastip'] = "Последний известный IP:";
+$l['ipresult_post'] = "Сообщение:";
+$l['subject'] = "Тема";
+$l['username'] = "Имя пользователя";
+$l['ipaddress'] = "IP-адрес";
+$l['options'] = "Опции:";
+$l['find'] = "Найти";
+$l['modlogs'] = "Логи модераторов";
+$l['action'] = "Действие";
+$l['all_moderators'] = "Все модераторы";
+$l['ip'] = "IP-адрес";
+$l['info_on_ip'] = "Информация об этом IP-адресе";
+$l['search_ip_sfs']  = "Искать этот IP на Stop Forum Spam";
+$l['information']  = "Информация";
+$l['filter_modlogs'] = "Фильтровать логи модераторов";
+$l['forum'] = "Форум";
+$l['post'] = "Сообщение";
+$l['from_moderator'] = "От модератора:";
+$l['na_deleted'] = "Н/Д - Удалено";
+$l['sort_by'] = "Сортировать по:";
+$l['forum_name'] = "Название форума";
+$l['thread_subject'] = "Тема обсуждения";
+$l['in'] = "в";
+$l['order'] = "порядок";
+$l['asc'] = "По возрастанию";
+$l['desc'] = "По убыванию";
+$l['per_page'] = "Результатов на страницу:";
+$l['filter_logs'] = "Фильтровать логи";
+$l['error_no_log_results'] = "Извините, по выбранным критериям не найдено результатов.";
+$l['find_users'] = "Поиск пользователей";
+$l['users'] = "Пользователи";
+$l['regdate'] = "Дата регистрации";
+$l['lastvisit'] = "Последний визит";
+$l['postnum'] = "Количество сообщений";
+$l['username_contains'] = "Имя пользователя содержит:";
+$l['no_user_results'] = "Пользователи по указанным критериям поиска не найдены.";
+$l['edit_profile'] = "Редактировать профиль {1}";
+$l['birthday'] = "Дата рождения:";
+$l['title'] = "Пользовательский заголовок:";
+$l['profile_required'] = "Обязательные поля";
+$l['remove_avatar'] = "Удалить аватар пользователя?";
+$l['profile_optional'] = "Дополнительные поля";
+$l['website_url'] = "URL сайта:";
+$l['birthdate'] = "Дата рождения:";
+$l['skype_id'] = "Skype ID:";
+$l['google_id'] = "Google Hangouts ID:";
+$l['away_notice_away'] = "Вы помечены как отсутствующий с {1}";
+$l['away_notice'] = "Эта опция позволит вам выбрать, отсутствуете вы или нет.";
+$l['additional_information'] = "Дополнительная информация";
+$l['update_profile'] = "Обновить профиль";
+$l['custom_usertitle'] = "Пользовательский заголовок";
+$l['new_custom_usertitle'] = "Новый пользовательский заголовок: (оставьте пустым для использования текущего)";
+$l['custom_usertitle_note'] = "Здесь вы можете назначить пользовательский заголовок, который перезапишет заголовок на основе группы отображения пользователя.";
+$l['default_usertitle'] = "Заголовок по умолчанию:";
+$l['current_custom_usertitle'] = "Текущий пользовательский заголовок:";
+$l['revert_usertitle'] = "Вернуть к групповому по умолчанию";
+$l['additional_contact_details'] = "Дополнительные контактные данные";
+$l['current_username'] = "Имя пользователя:";
+$l['away_information'] = "Информация об отсутствии";
+$l['away_status'] = "Статус отсутствия:";
+$l['away_status_desc'] = "Позволяет оставить сообщение об отсутствии, если вы уходите на некоторое время.";
+$l['im_away'] = "Я отсутствую";
+$l['im_here'] = "Я здесь";
+$l['away_reason'] = "Причина отсутствия:";
+$l['away_reason_desc'] = "Позволяет ввести краткое описание причины вашего отсутствия (максимум 200 символов).";
+$l['return_date'] = "Дата возвращения:";
+$l['return_date_desc'] = "Если вы знаете, когда вернетесь, вы можете ввести дату возвращения здесь.";
+$l['error_modcp_return_date_past'] = "Вы не можете вернуться в прошлом!";
+$l['usergroup'] = "Основная группа";
+$l['redirect_user_updated'] = "Профиль пользователя успешно обновлен.";
+$l['posts_awaiting_moderation'] = "Сообщения, ожидающие модерации";
+$l['threads_awaiting_moderation'] = "Темы, ожидающие модерации";
+$l['attachments_awaiting_moderation'] = "Вложения, ожидающие модерации";
+$l['mod_queue'] = "Очередь модерации";
+$l['approve'] = "Одобрить";
+$l['ignore'] = "Игнорировать";
+$l['perform_actions'] = "Выполнить действия";
+$l['author'] = "Автор";
+$l['threads'] = "Темы";
+$l['posts'] = "Сообщения";
+$l['filename'] = "Имя файла";
+$l['thread_post'] = "Тема / Сообщение";
+$l['permanent'] = "Постоянно";
+$l['ban_error'] = "Ошибка";
+$l['ban_banned'] = "Забаненные пользователи";
+$l['ban_user'] = "Забанить пользователя";
+$l['reason'] = "Причина";
+$l['ban_username'] = "Имя пользователя:";
+$l['ban_reason'] = "Причина:";
+$l['ban_length'] = "Длительность";
+$l['ban_remaining'] = "осталось";
+$l['ban_ending_imminently'] = "Бан скоро закончится";
+$l['ban_bannedby'] = "Забанен";
+$l['ban_movegroup'] = "Переместить в группу забаненных:";
+$l['ban_liftafter'] = "Снять бан после:";
+$l['no_banned'] = "В настоящее время нет забаненных пользователей.";
+$l['no_banned_group'] = "В настоящее время нет забаненных групп.";
+$l['redirect_banuser'] = "Пользователь успешно забанен.";
+$l['redirect_banuser_updated'] = "Бан пользователя успешно обновлен.";
+$l['invalid_username'] = "Введенное имя пользователя недействительно. Пожалуйста, убедитесь, что вы ввели действительное имя пользователя.";
+$l['error_useralreadybanned'] = "Этот пользователь уже забанен. Вы не можете забанить пользователя более одного раза.";
+$l['error_cannotbanuser'] = "Вы не можете забанить этого пользователя, потому что у него больше прав, чем у вас. Пожалуйста, свяжитесь с администратором, если хотите забанить этого пользователя.";
+$l['error_cannotbanself'] = "Вы не можете забанить себя. Пожалуйста, введите другое имя пользователя.";
+$l['error_no_perm_to_ban'] = "У вас нет разрешения на бан этого пользователя.";
+$l['error_nobanreason'] = "Вы не ввели причину для этого бана. Пожалуйста, введите действительную причину ниже.";
+$l['error_nobangroup'] = "Вы не выбрали действительную группу для перемещения этого пользователя.";
+$l['edit_ban'] = "Редактировать бан";
+$l['lift_ban'] = "Снять бан";
+$l['ban'] = "Бан";
+$l['error_invalidban'] = "Вы выбрали недействительный бан.";
+$l['redirect_banlifted'] = "Бан успешно снят.";
+$l['mark_all_ignored'] = "Отметить все как игнорируемые";
+$l['mark_all_deletion'] = "Отметить все для удаления";
+$l['mark_all_approved'] = "Отметить все как одобренные";
+$l['meta_forum'] = "Форум:";
+$l['meta_thread'] = "Тема:";
+$l['mod_queue_empty'] = "Все очереди модерации в настоящее время пусты.";
+$l['mod_queue_threads_empty'] = "Очередь модерации тем в настоящее время пуста.";
+$l['mod_queue_posts_empty'] = "Очередь модерации сообщений в настоящее время пуста.";
+$l['mod_queue_attachments_empty'] = "Очередь модерации вложений в настоящее время пуста.";
+$l['redirect_threadsmoderated'] = "Выбранные темы прошли модерацию.";
+$l['redirect_postsmoderated'] = "Выбранные сообщения прошли модерацию.";
+$l['redirect_attachmentsmoderated'] = "Выбранные вложения прошли модерацию.";
+$l['multi_approve_posts'] = "Выбранные сообщения одобрены";
+$l['multi_delete_posts'] = "Выбранные сообщения удалены навсегда";
+$l['multi_soft_delete_posts'] = "Выбранные сообщения мягко удалены";
+$l['multi_approve_threads'] = "Выбранные темы одобрены";
+$l['multi_delete_threads'] = "Выбранные темы удалены навсегда";
+$l['multi_soft_delete_threads'] = "Выбранные темы мягко удалены";
+$l['edited_user'] = "Отредактирован профиль пользователя";
+$l['edited_user_info'] = "<strong>Пользователь:</strong> <a href=\"{2}\">{1}</a>";
+$l['edited_user_ban'] = "Отредактирован бан пользователя";
+$l['banned_user'] = "Пользователь забанен";
+$l['lifted_ban'] = "Бан пользователя снят";
+$l['no_bans_ending'] = "Нет банов, заканчивающихся скоро.";
+
+$l['warning_logs'] = "Логи предупреждений";
+$l['warned_user'] = "Пользователь с предупреждением";
+$l['warning'] = "Предупреждение";
+$l['date_issued'] = "Дата выдачи";
+$l['expires'] = "Истекает";
+$l['expiry_date'] = "Дата истечения";
+$l['issued_date'] = "Дата выдачи";
+$l['issued_by'] = "Выдано";
+$l['details'] = "Подробности";
+$l['filter_warning_logs'] = "Фильтровать логи предупреждений";
+$l['filter_warned_user'] = "Пользователь с предупреждением:";
+$l['filter_issued_by'] = "Предупреждение выдано:";
+$l['filter_reason'] = "Причина содержит:";
+$l['view'] = "Просмотреть";
+$l['no_warning_logs'] = "Нет логов предупреждений для просмотра.";
+$l['revoked'] = "Отозвано ";
+$l['signature'] = "Подпись";
+$l['suspend_signature'] = "<strong>Приостановить подпись этого пользователя</strong>";
+$l['suspend_length'] = "Длительность приостановки:";
+$l['mod_notes'] = "Заметки модератора";
+$l['moderation'] = "Опции модератора";
+$l['moderate_posts'] = "Модерировать сообщения этого пользователя";
+$l['suspend_posts'] = "Приостановить права на публикацию этого пользователя";
+$l['modpost_length'] = "Модерировать в течение:";
+$l['suspost_length'] = "Приостановить на:";
+
+$l['moderateposts_for'] = "Модерируется до {1}.<br />Снимите эту галочку, чтобы удалить, или продлите ниже.";
+$l['suspendposting_for'] = "Приостановлено до {1}.<br />Снимите эту галочку, чтобы удалить, или продлите ниже.";
+$l['suspendsignature_for'] = "Приостановлено до {1}.<br />Снимите эту галочку, чтобы удалить, или продлите ниже.";
+$l['suspendposting_perm'] = "Приостановлено навсегда.<br />Снимите эту галочку, чтобы удалить, или измените ниже.";
+$l['moderateposts_perm'] = "Модерируется навсегда.<br />Снимите эту галочку, чтобы удалить, или измените ниже.";
+$l['suspendsignature_perm'] = "Приостановлено навсегда.<br />Снимите эту галочку, чтобы удалить, или измените ниже.";
+$l['suspendsignature_error'] = "Вы выбрали приостановку подписи этого пользователя, но не ввели допустимый период времени. Пожалуйста, введите допустимое время для продолжения или снимите галочку для отмены.";
+$l['moderateposting_error'] = "Вы выбрали модерацию сообщений этого пользователя, но не ввели допустимый период времени. Пожалуйста, введите допустимое время для продолжения или снимите галочку для отмены.";
+$l['suspendposting_error'] = "Вы выбрали приостановку сообщений этого пользователя, но не ввели допустимый период времени. Пожалуйста, введите допустимое время для продолжения или снимите галочку для отмены.";
+$l['suspendmoderate_error'] = "Вы выбрали приостановку и модерацию сообщений пользователя. Пожалуйста, выберите только один тип модерации.";
+
+$l['expire_hours'] = "час(ов)";
+$l['expire_days'] = "день(дней)";
+$l['expire_weeks'] = "неделя(недель)";
+$l['expire_months'] = "месяц(ев)";
+$l['expire_permanent'] = "Навсегда";
+
+$l['manage_announcement'] = "Управление объявлениями";
+$l['forum_announcements'] = "Объявления форума";
+$l['announcement'] = "Объявление";
+$l['controls'] = "Управление";
+$l['expired_announcement'] = "Истекшее объявление";
+$l['active_announcement'] = "Активное объявление";
+$l['active'] = "Активно";
+$l['expired'] = "Истекло";
+$l['edit'] = "Редактировать";
+$l['add_announcement'] = "Добавить объявление";
+$l['edit_announcement'] = "Редактировать объявление";
+$l['no_forum_announcements'] = "В настоящее время на вашей доске нет объявлений форума.";
+$l['no_global_announcements'] = "В настоящее время на вашей доске нет глобальных объявлений.";
+$l['add_global_announcement'] = "Добавить глобальное объявление";
+$l['global_announcements'] = "Глобальные объявления";
+$l['title'] = "Заголовок";
+$l['start_date'] = "Дата начала";
+$l['time'] = "Время:";
+$l['end_date'] = "Дата окончания";
+$l['never'] = "Никогда";
+$l['allow_html'] = "Разрешить HTML";
+$l['allow_mycode'] = "Разрешить MyCode";
+$l['allow_smilies'] = "Разрешить смайлы";
+$l['reset'] = "Сбросить";
+$l['january'] = "Январь";
+$l['february'] = "Февраль";
+$l['march'] = "Март";
+$l['april'] = "Апрель";
+$l['may'] = "Май";
+$l['june'] = "Июнь";
+$l['july'] = "Июль";
+$l['august'] = "Август";
+$l['september'] = "Сентябрь";
+$l['october'] = "Октябрь";
+$l['november'] = "Ноябрь";
+$l['december'] = "Декабрь";
+$l['delete_announcement'] = "Удалить объявление";
+$l['confirm_delete_announcement'] = "Вы уверены, что хотите удалить это объявление?";
+$l['redirect_add_announcement'] = "Объявление создано.";
+$l['redirect_edit_announcement'] = "Объявление отредактировано.";
+$l['redirect_delete_announcement'] = "Объявление удалено.";
+$l['error_missing_title'] = "Вы не ввели заголовок.";
+$l['error_missing_message'] = "Вы не ввели сообщение.";
+$l['error_missing_forum'] = "Вы не выбрали форум.";
+$l['error_invalid_start_date'] = "Дата начала объявления недействительна.";
+$l['error_invalid_end_date'] = "Дата окончания объявления недействительна.";
+$l['error_end_before_start'] = "Дата окончания должна быть после даты начала.";
+$l['error_invalid_announcement'] = "Указанное объявление недействительно.";
+
+$l['announcement_added'] = "Объявление добавлено";
+$l['announcement_edited'] = "Объявление отредактировано";
+$l['announcement_deleted'] = "Объявление удалено";
+
+$l['preview'] = 'Предпросмотр';
+
+$l['you_cannot_view_mod_logs'] = "У вас недостаточно прав для просмотра логов модераторов.";
+$l['you_cannot_view_reported_posts'] = "У вас недостаточно прав для просмотра жалоб на сообщения.";
+$l['you_cannot_manage_announcements'] = "У вас недостаточно прав для управления объявлениями.";
+$l['you_cannot_moderate_threads'] = "У вас недостаточно прав для модерации тем.";
+$l['you_cannot_moderate_posts'] = "У вас недостаточно прав для модерации сообщений.";
+$l['you_cannot_moderate_attachments'] = "У вас недостаточно прав для модерации вложений.";
+$l['you_cannot_use_mod_queue'] = "У вас недостаточно прав для использования очереди модерации.";
+
+$l['post'] = 'Сообщение';

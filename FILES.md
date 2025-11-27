@@ -1,0 +1,116 @@
+# Files
+
+## 1.8.39
+
+- inc/languages/
+  - [x] russian.php
+- inc/languages/russian/
+  - [x] announcements.lang.php
+  - [x] archive.lang.php
+  - [x] calendar.lang.php
+  - [x] contact.lang.php
+  - [x] customhelpdocs.lang.php
+  - [x] customhelpsections.lang.php
+  - [x] datahandler_event.lang.php
+  - [x] datahandler_login.lang.php
+  - [x] datahandler_pm.lang.php
+  - [x] datahandler_post.lang.php
+  - [x] datahandler_user.lang.php
+  - [x] datahandler_warnings.lang.php
+  - [x] editpost.lang.php
+  - [x] forumdisplay.lang.php
+  - [x] global.lang.php
+  - [x] helpdocs.lang.php
+  - [x] helpsections.lang.php
+  - [x] hello.lang.php
+  - [ ] index.html
+  - [x] index.lang.php
+  - [x] mailhandler.lang.php
+  - [x] managegroup.lang.php
+  - [x] member.lang.php
+  - [x] memberlist.lang.php
+  - [x] messages.lang.php
+  - [x] misc.lang.php
+  - [x] modcp.lang.php
+  - [x] moderation.lang.php
+  - [x] newreply.lang.php
+  - [x] newthread.lang.php
+  - [x] online.lang.php
+  - [x] polls.lang.php
+  - [x] portal.lang.php
+  - [x] printthread.lang.php
+  - [x] private.lang.php
+  - [x] ratethread.lang.php
+  - [x] report.lang.php
+  - [x] reputation.lang.php
+  - [x] search.lang.php
+  - [x] sendthread.lang.php
+  - [x] showteam.lang.php
+  - [x] showthread.lang.php
+  - [x] stats.lang.php
+  - [x] syndication.lang.php
+  - [x] usercp.lang.php
+  - [x] usercpnav.lang.php
+  - [x] warnings.lang.php
+  - [x] xmlhttp.lang.php
+- inc/languages/russian/admin/
+  - [ ] config_attachment_types.lang.php
+  - [ ] config_banning.lang.php
+  - [ ] config_badwords.lang.php
+  - [ ] config_calendars.lang.php
+  - [ ] config_help_documents.lang.php
+  - [ ] config_languages.lang.php
+  - [ ] config_mod_tools.lang.php
+  - [ ] config_module_meta.lang.php
+  - [ ] config_mycode.lang.php
+  - [ ] config_plugins.lang.php
+  - [ ] config_post_icons.lang.php
+  - [ ] config_profile_fields.lang.php
+  - [ ] config_questions.lang.php
+  - [ ] config_report_reasons.lang.php
+  - [ ] config_settings.lang.php
+  - [ ] config_smilies.lang.php
+  - [ ] config_spiders.lang.php
+  - [ ] config_thread_prefixes.lang.php
+  - [ ] config_warning.lang.php
+  - [ ] forum_announcements.lang.php
+  - [ ] forum_attachments.lang.php
+  - [ ] forum_management.lang.php
+  - [ ] forum_moderation_queue.lang.php
+  - [ ] forum_module_meta.lang.php
+  - [ ] global.lang.php
+  - [ ] hello.lang.php
+  - [ ] home_dashboard.lang.php
+  - [ ] home_module_meta.lang.php
+  - [ ] home_preferences.lang.php
+  - [ ] index.html
+  - [ ] style_module_meta.lang.php
+  - [ ] style_templates.lang.php
+  - [ ] style_themes.lang.php
+  - [ ] tools_adminlog.lang.php
+  - [ ] tools_backupdb.lang.php
+  - [ ] tools_cache.lang.php
+  - [ ] tools_file_verification.lang.php
+  - [ ] tools_mailerrors.lang.php
+  - [ ] tools_maillogs.lang.php
+  - [ ] tools_modlog.lang.php
+  - [ ] tools_module_meta.lang.php
+  - [ ] tools_optimizedb.lang.php
+  - [ ] tools_php_info.lang.php
+  - [ ] tools_recount_rebuild.lang.php
+  - [ ] tools_spamlog.lang.php
+  - [ ] tools_statistics.lang.php
+  - [ ] tools_system_health.lang.php
+  - [ ] tools_tasks.lang.php
+  - [ ] tools_warninglog.lang.php
+  - [ ] user_admin_permissions.lang.php
+  - [ ] user_awaiting_activation.lang.php
+  - [ ] user_banning.lang.php
+  - [ ] user_group_promotions.lang.php
+  - [ ] user_groups.lang.php
+  - [ ] user_mass_mail.lang.php
+  - [ ] user_module_meta.lang.php
+  - [ ] user_titles.lang.php
+  - [ ] user_users.lang.php
+- install/resourses/
+  - [x] language.lang.php
