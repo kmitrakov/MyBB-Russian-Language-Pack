@@ -45,7 +45,7 @@ git clone https://github.com/kmitrakov/MyBB-Russian-Language-Pack.git
 - Скопируйте на целевой сервер файл ```application/1.8.39/russian/install/resources/language.lang.php``` в каталог ```install/resources/``` вашей установки MyBB.
 - Запустите мастер установки MyBB, следуя [официальной документации по установке MyBB](https://docs.mybb.com/1.8/install/).
 - Выполните установку MyBB.
-- Перейдите в Административная панели управления (ACP) (```admin/index.php```).
+- Перейдите в административную панель управления (ACP) (```admin/index.php```).
 - В разделе "Configuration > Settings > General Configuration > Default Language" выберите пункт "Russian" и нажмите кнопку "Save Settings".
 
 ## Версии и совместимость
