@@ -1,7 +1,7 @@
 # MyBB Russian Language Pack
 
-![MyBB Version](https://img.shields.io/badge/MyBB-v1.8.39-blue?style=flat-square)
-![Release](https://img.shields.io/badge/Release-v1.0.0-orange?style=flat-square)
+![MyBB Version](https://img.shields.io/badge/MyBB-1.8.39-blue?style=flat-square)
+![Release](https://img.shields.io/badge/Release-1.0.1-orange?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Actively%20Maintained-brightgreen?style=flat-square)
 
 Русский языковой пакет для системы форумов MyBB.
@@ -51,7 +51,7 @@ git clone https://github.com/kmitrakov/MyBB-Russian-Language-Pack.git
 ## Версии и совместимость
 | Версия пакета | Совместимость с MyBB | Статус            |
 |:--------------|:---------------------|:------------------|
-| 1.0.0         | 1.8.39               | ✅ Поддерживается |
+| 1.0.1         | 1.8.39               | ✅ Поддерживается |
 
 ## Часто задаваемые вопросы
 - **Я нашел ошибку в переводе. Куда сообщить?**
