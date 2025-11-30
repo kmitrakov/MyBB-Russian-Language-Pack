@@ -1,7 +1,7 @@
 # MyBB Russian Language Pack
 
 ![MyBB Version](https://img.shields.io/badge/MyBB-1.8.39-blue?style=flat-square)
-![Release](https://img.shields.io/badge/Release-1.0.1-orange?style=flat-square)
+![Release](https://img.shields.io/badge/Release-1.0.2-orange?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Actively%20Maintained-brightgreen?style=flat-square)
 
 Русский языковой пакет для системы форумов MyBB.
