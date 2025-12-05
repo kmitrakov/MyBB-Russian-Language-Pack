@@ -1,15 +1,20 @@
 # MyBB Russian Language Pack
 
 ![MyBB Version](https://img.shields.io/badge/MyBB-1.8.39-blue?style=flat-square)
-![Release](https://img.shields.io/badge/Release-1.0.2-orange?style=flat-square)
+![Release](https://img.shields.io/badge/Release-1.0.3-orange?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Actively%20Maintained-brightgreen?style=flat-square)
 
 Русский языковой пакет для системы форумов MyBB.
 Этот пакет переводит интерфейс пользователя и мастера установки для комфортного использования MyBB русскоязычным сообществом.
 
 ## Описание
-Данный пакет содержит актуальную версию русского языкового пакета для MyBB.
-Перевод тщательно проверен, чтобы обеспечить естественную локализацию всех элементов системы.
+Данный пакет содержит актуальную версию русского языкового пакета для MyBB. Перевод тщательно проверен, чтобы обеспечить естественную локализацию всех элементов системы.
+
+<p>
+    <div>
+        <img src=".github/images/MyBB_Index_v0.1.png" width="100%" alt="MyBB Index" />
+    </div>
+</p>
 
 Пакет содержит перевод для следующих элементов MyBB:
 - Мастер установки.
@@ -30,7 +35,10 @@
             |
             └── install
                 └── resources - Мастер установки
-                    └── language.lang.php
+                    ├── language.lang.php
+                    ├── mysql_db_inserts.php
+                    └── pgsql_db_inserts.php
+                    
 ```
 
 ### Установка пакета при создании нового форума
@@ -44,6 +52,8 @@ git clone https://github.com/kmitrakov/MyBB-Russian-Language-Pack.git
 - Скопируйте на целевой сервер файл ```application/1.8.39/russian/inc/languages/russian/russian.php``` в каталог ```inc/languages/``` вашей установки MyBB.
 - Создайте резервную копию файла ```install/resources/language.lang.php``` на целевом сервере.
 - Скопируйте на целевой сервер файл ```application/1.8.39/russian/install/resources/language.lang.php``` в каталог ```install/resources/``` вашей установки MyBB.
+- Создайте резервную копию файла ```install/resources/mysql_db_inserts.php``` на целевом сервере.
+- Скопируйте на целевой сервер файл ```application/1.8.39/russian/install/resources/mysql_db_inserts.php``` в каталог ```install/resources/``` вашей установки MyBB.
 - Запустите мастер установки MyBB, следуя [официальной документации по установке MyBB](https://docs.mybb.com/1.8/install/).
 - Выполните установку MyBB.
 - Перейдите в административную панель управления (ACP) (```admin/index.php```).
