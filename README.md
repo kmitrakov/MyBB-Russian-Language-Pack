@@ -4,7 +4,7 @@
 ![Release](https://img.shields.io/badge/Release-1.0.3-orange?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Actively%20Maintained-brightgreen?style=flat-square)
 
-Русский языковой пакет для системы форумов MyBB.
+Русский языковой пакет для форума MyBB.
 Этот пакет переводит интерфейс пользователя и мастера установки для комфортного использования MyBB русскоязычным сообществом.
 <p>
     <div>

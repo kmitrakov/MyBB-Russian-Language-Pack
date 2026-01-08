@@ -115,4 +115,4 @@
 - install/resourses/
   - [x] language.lang.php
   - [x] mysql_db_inserts.php
-  - [ ] pgsql_db_inserts.php
+  - [x] pgsql_db_inserts.php
