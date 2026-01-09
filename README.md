@@ -1,20 +1,19 @@
 # MyBB Russian Language Pack
 
 ![MyBB Version](https://img.shields.io/badge/MyBB-1.8.39-blue?style=flat-square)
-![Release](https://img.shields.io/badge/Release-1.0.3-orange?style=flat-square)
+![Release](https://img.shields.io/badge/Release-1.0.4-orange?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Actively%20Maintained-brightgreen?style=flat-square)
 
-Русский языковой пакет для системы форумов MyBB.
+Русский языковой пакет для форума MyBB.
 Этот пакет переводит интерфейс пользователя и мастера установки для комфортного использования MyBB русскоязычным сообществом.
-
-## Описание
-Данный пакет содержит актуальную версию русского языкового пакета для MyBB. Перевод тщательно проверен, чтобы обеспечить естественную локализацию всех элементов системы.
-
 <p>
     <div>
         <img src=".github/images/MyBB_Index_v0.1.png" width="100%" alt="MyBB Index" />
     </div>
 </p>
+
+## Описание
+Данный пакет содержит актуальную версию русского языкового пакета для MyBB. Перевод тщательно проверен, чтобы обеспечить естественную локализацию всех элементов системы.
 
 Пакет содержит перевод для следующих элементов MyBB:
 - Мастер установки.
@@ -38,7 +37,6 @@
                     ├── language.lang.php
                     ├── mysql_db_inserts.php
                     └── pgsql_db_inserts.php
-                    
 ```
 
 ### Установка пакета при создании нового форума
