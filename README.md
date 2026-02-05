@@ -4,8 +4,7 @@
 ![Release](https://img.shields.io/badge/Release-1.0.4-orange?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Actively%20Maintained-brightgreen?style=flat-square)
 
-Русский языковой пакет для форума MyBB.
-Этот пакет переводит интерфейс пользователя и мастера установки для комфортного использования MyBB русскоязычным сообществом.
+Русская локализация для системы форумов MyBB.
 <p>
     <div>
         <img src=".github/images/MyBB_Index_v0.1.png" width="100%" alt="MyBB Index" />
@@ -13,7 +12,9 @@
 </p>
 
 ## Описание
-Данный пакет содержит актуальную версию русского языкового пакета для MyBB. Перевод тщательно проверен, чтобы обеспечить естественную локализацию всех элементов системы.
+Данный репозиторий содержит официальный языковой пакет для локализации платформы MyBB на русский язык. Пакет обеспечивает перевод интерфейса пользователя и пошагового мастера установки, что позволяет развернуть полностью русскоязычный форум.
+
+Предназначен для администраторов и разработчиков, ориентированных на русскоязычную аудиторию, и служит для корректной русификации форумов на базе MyBB.
 
 Пакет содержит перевод для следующих элементов MyBB:
 - Мастер установки.
@@ -78,7 +79,7 @@ git clone https://github.com/kmitrakov/MyBB-Russian-Language-Pack.git
 Ваша помощь приветствуется!
 
 ## Команда проекта
-- [Kirill Mitrakov](https://github.com/kmitrakov/) [(k.mitrakov@gmail.com)](mailto:k.mitrakov@gmail.com?subject=MyBB%20Russian%20Language%20Pack).
+- [Kirill Mitrakov](https://github.com/kmitrakov/) [(https://mitrakov.tech)](https://mitrakov.tech).
 
 ## Источники
 - [Официальный сайт MyBB](https://mybb.com/)
