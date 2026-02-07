@@ -235,7 +235,7 @@ $l['config_step_table'] = '<p>Теперь пришло время настро�
 				</tr>
 				<tr class="alt_row last">
 					<td class="first"><label for="bburl">URL форума (без завершающего слеша):</label></td>
-					<td class="last alt_col"><input type="text" class="text_input" name="bburl" id="bburl" value="{2}" onkeyup="warnUser(this, \'Эта опция была установлена автоматически. Не изменяйте ее, если не уверены в правильном значении, иначе ссылки на вашем форуме могут быть broken.\')" onchange="warnUser(this, \'Эта опция была установлена автоматически. Не изменяйте ее, если не уверены в правильном значении, иначе ссылки на вашем форуме могут быть broken.\')" /></td>
+					<td class="last alt_col"><input type="text" class="text_input" name="bburl" id="bburl" value="{2}" onkeyup="warnUser(this, \'Эта опция была установлена автоматически. Не изменяйте ее, если не уверены в правильном значении, иначе ссылки на вашем форуме могут перестать работать.\')" onchange="warnUser(this, \'Эта опция была установлена автоматически. Не изменяйте ее, если не уверены в правильном значении, иначе ссылки на вашем форуме могут перестать работать.\')" /></td>
 				</tr>
 				<tr>
 					<th colspan="2" class="first last">Детали веб-сайта</th>
@@ -253,11 +253,11 @@ $l['config_step_table'] = '<p>Теперь пришло время настро�
 				</tr>
 				<tr>
 					<td class="first"><label for="cookiedomain">Домен cookie:</label></td>
-					<td class="last alt_col"><input type="text" class="text_input" name="cookiedomain" id="cookiedomain" value="{5}" onkeyup="warnUser(this, \'Эта опция была установлена автоматически. Не изменяйте ее, если не уверены в правильном значении, иначе вход или выход на вашем форуме могут быть broken.\')" onchange="warnUser(this, \'Эта опция была установлена автоматически. Не изменяйте ее, если не уверены в правильном значении, иначе вход или выход на вашем форуме могут быть broken.\')" /></td>
+					<td class="last alt_col"><input type="text" class="text_input" name="cookiedomain" id="cookiedomain" value="{5}" onkeyup="warnUser(this, \'Эта опция была установлена автоматически. Не изменяйте ее, если не уверены в правильном значении, иначе вход или выход на вашем форуме могут перестать работать.\')" onchange="warnUser(this, \'Эта опция была установлена автоматически. Не изменяйте ее, если не уверены в правильном значении, иначе вход или выход на вашем форуме могут перестать работать.\')" /></td>
 				</tr>
 				<tr class="alt_row last">
 					<td class="first"><label for="cookiepath">Путь cookie:</label></td>
-					<td class="last alt_col"><input type="text" class="text_input" name="cookiepath" id="cookiepath" value="{6}" onkeyup="warnUser(this, \'Эта опция была установлена автоматически. Не изменяйте ее, если не уверены в правильном значении, иначе вход или выход на вашем форуме могут быть broken.\')" onchange="warnUser(this, \'Эта опция была установлена автоматически. Не изменяйте ее, если не уверены в правильном значении, иначе вход или выход на вашем форуме могут быть broken.\')" /></td>
+					<td class="last alt_col"><input type="text" class="text_input" name="cookiepath" id="cookiepath" value="{6}" onkeyup="warnUser(this, \'Эта опция была установлена автоматически. Не изменяйте ее, если не уверены в правильном значении, иначе вход или выход на вашем форуме могут перестать работать.\')" onchange="warnUser(this, \'Эта опция была установлена автоматически. Не изменяйте ее, если не уверены в правильном значении, иначе вход или выход на вашем форуме могут перестать работать.\')" /></td>
 				</tr>
 				<tr>
 					<th colspan="2" class="first last">Контактные данные</th>
