@@ -7,7 +7,7 @@
 Русская локализация для системы форумов MyBB.
 <p>
     <div>
-        <img src=".github/images/MyBB_Index_v0.1.png" width="100%" alt="MyBB Index" />
+        <img src=".github/images/MyBB_Index_v0.2.png" width="100%" alt="MyBB Index" />
     </div>
 </p>
 
