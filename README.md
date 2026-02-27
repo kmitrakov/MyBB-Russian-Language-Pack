@@ -1,16 +1,28 @@
-# MyBB Russian Language Pack
-
-![MyBB Version](https://img.shields.io/badge/MyBB-1.8.39-blue?style=flat-square)
-![Release](https://img.shields.io/badge/Release-1.0.5-orange?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Actively%20Maintained-brightgreen?style=flat-square)
-
-Русская локализация для системы форумов MyBB.
+<div align="center">
+  <h1>MyBB Russian Language Pack</h1>
+  <p>
+    <strong>Русская локализация для системы форумов MyBB.</strong>
+  </p>
+  <p>
+    <a href="https://www.mybb.com/">
+        <img src="https://img.shields.io/badge/MyBB-1.8.39-blue?style=for-the-badge&logo=mybb" alt="MyBB Version">
+    </a>
+    <a href="https://github.com/kmitrakov/MyBB-Russian-Language-Pack/releases">
+        <img src="https://img.shields.io/github/v/release/kmitrakov/MyBB-Russian-Language-Pack?style=for-the-badge&logo=github" alt="Release">
+    </a>
+    <a href="https://github.com/kmitrakov/MyBB-Russian-Language-Pack/blob/main/LICENSE">
+        <img src="https://img.shields.io/github/license/kmitrakov/MyBB-Russian-Language-Pack?style=for-the-badge" alt="License">
+    </a>
+  </p>
+</div>
 
 <p>
     <div>
         <img src=".github/images/MyBB_Index_v0.3.png" width="100%" alt="MyBB Index" />
     </div>
 </p>
+
+## <a id="title0">Содержание</a>
 
 - [Описание](#title1)
     - [Структура проекта](#title1.1)
@@ -32,7 +44,7 @@
 - Мастер установки.
 
 ### <a id="title1.1">Структура проекта</a>
-```
+```text
 └── application
     └── 1.8.39
         ├── english - Оригинальный английский языковой пакет (1.8.39)
@@ -49,22 +61,22 @@
 ```
 
 ### <a id="title1.2">Установка пакета при создании нового форума</a>
-- Скачайте MyBB с официального сайта, используя [официальную страницу MyBB](https://mybb.com/download/).
-- Разместите все необходимые файлы на целевом сервере, следуя [официальной документации по установке MyBB](https://docs.mybb.com/1.8/install/).
-- Получите код данного пакета.
-```
+1. Скачайте MyBB с официального сайта, используя [официальную страницу MyBB](https://mybb.com/download/).
+2. Разместите все необходимые файлы на целевом сервере, следуя [официальной документации по установке MyBB](https://docs.mybb.com/1.8/install/).
+3. Получите код данного пакета.
+```shell
 git clone https://github.com/kmitrakov/MyBB-Russian-Language-Pack.git
 ```
-- Скопируйте на целевой сервер каталог ```application/1.8.39/russian/inc/languages/russian``` в каталог ```inc/languages/``` вашей установки MyBB.
-- Скопируйте на целевой сервер файл ```application/1.8.39/russian/inc/languages/russian/russian.php``` в каталог ```inc/languages/``` вашей установки MyBB.
-- Создайте резервную копию файла ```install/resources/language.lang.php``` на целевом сервере.
-- Скопируйте на целевой сервер файл ```application/1.8.39/russian/install/resources/language.lang.php``` в каталог ```install/resources/``` вашей установки MyBB.
-- Создайте резервную копию файла ```install/resources/mysql_db_inserts.php``` на целевом сервере.
-- Скопируйте на целевой сервер файл ```application/1.8.39/russian/install/resources/mysql_db_inserts.php``` в каталог ```install/resources/``` вашей установки MyBB.
-- Запустите мастер установки MyBB, следуя [официальной документации по установке MyBB](https://docs.mybb.com/1.8/install/).
-- Выполните установку MyBB.
-- Перейдите в административную панель управления (ACP) (```admin/index.php```).
-- В разделе "Configuration > Settings > General Configuration > Default Language" выберите пункт "Russian" и нажмите кнопку "Save Settings".
+4. Скопируйте на целевой сервер каталог ```application/1.8.39/russian/inc/languages/russian``` в каталог ```inc/languages/``` вашей установки MyBB.
+5. Скопируйте на целевой сервер файл ```application/1.8.39/russian/inc/languages/russian/russian.php``` в каталог ```inc/languages/``` вашей установки MyBB.
+6. Создайте резервную копию файла ```install/resources/language.lang.php``` на целевом сервере.
+7. Скопируйте на целевой сервер файл ```application/1.8.39/russian/install/resources/language.lang.php``` в каталог ```install/resources/``` вашей установки MyBB.
+8. Создайте резервную копию файла ```install/resources/mysql_db_inserts.php``` на целевом сервере.
+9. Скопируйте на целевой сервер файл ```application/1.8.39/russian/install/resources/mysql_db_inserts.php``` в каталог ```install/resources/``` вашей установки MyBB.
+10. Запустите мастер установки MyBB, следуя [официальной документации по установке MyBB](https://docs.mybb.com/1.8/install/).
+11. Выполните установку MyBB.
+12. Перейдите в административную панель управления (ACP) (```admin/index.php```).
+13. В разделе "Configuration > Settings > General Configuration > Default Language" выберите пункт "Russian" и нажмите кнопку "Save Settings".
 
 ## <a id="title2">Версии и совместимость</a>
 | Версия пакета | Совместимость с MyBB | Статус                                     |
