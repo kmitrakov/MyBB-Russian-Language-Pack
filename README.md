@@ -1,7 +1,7 @@
 <div align="center">
   <h1>MyBB Russian Language Pack</h1>
   <p>
-    <strong>Русская локализация для системы форумов MyBB.</strong>
+    <strong>Русская локализация для системы форумов MyBB</strong>
   </p>
   <p>
     <a href="https://www.mybb.com/">
